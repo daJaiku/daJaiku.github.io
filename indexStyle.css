@@ -2,6 +2,7 @@
 {
     --hlcolor: #d0007cdd;
     --bgcolor: #222;
+    --bghlcolor: #444;
     --textcolor: #fff;
 }
 
@@ -37,39 +38,54 @@ a
 
 
     scale: 1;
-    transition: 0.5s ease;
+    transition: 1s ease;
 }
 
 a:visited
 {
-    color: #fff;
+    color: var(--textcolor);
 }
 
 a:hover
 {
-    background-color: #444;
+    background-color: var(--bghlcolor);
     transition: 0.5s ease;
     scale: 1.2;
 }
 
 #top
 {
-    background-color: var(--hlcolor);
-    transform: translateY(-50%);
+    background-color: #678;
+    height: 400px;
+    width: 100%;
+    transform: translateY(-200px);
     border-radius: 20px;
+
+    position: sticky;
+    top: 0;
+
+    z-index: 10;
 }
 
 #logo
 {
     width: 200px;
     height: auto;
-    border-radius: 10%;
-    margin: 5%;
-    transform: translateY(70%);
+    border-radius: 20px;
+    transform: translateY(250px);
     border: 10px solid #222;
 }
 
-#main
+#cuerpo
 {
-    transform: translateY(-20%)
+    transform: translateY(-100px);
+}
+
+#botonera
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 40px;
 }
