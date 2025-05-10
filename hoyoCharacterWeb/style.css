@@ -1,0 +1,96 @@
+:root
+{
+    --pyro4: #e18a70;
+    --pyro5: #ffa870;
+    --hydro4: #00c6ff;
+    --hydro5: #04e8ff;
+    --dendro4: #93cd29;
+    --dendro5: #b1eb29;
+    --electro4: #c19cff;
+    --electro5: #dfbaff;
+    --anemo4: #89d7cc;
+    --anemo5: #a7f5cc;
+    --cryo4: #a6dbf9;
+    --cryo5: #c4f9f9;
+    --geo4: #d7b861;
+    --geo5: #f5d661;
+    --dark: #222;
+    --transparentBG: #0001;
+}
+
+
+html
+{
+    background-color: var(--dark);
+    color: var(--dark);
+
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+
+    cursor: default;
+}
+
+div
+{
+    background-color: var(--transparentBG);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+
+}
+
+div:hover
+{
+    color:#fff;
+    background-color: #0002;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+table
+{
+    margin-top: 80px;
+}
+
+th
+{
+    background-color: #fff9;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+td { border-radius: 8px; }
+
+table
+{
+    display: inline-block;
+
+}
+
+
+.Pyro4 { background-color: var(--pyro4) }
+.Pyro5 { background-color: var(--pyro5) }
+
+.Hydro4 { background-color: var(--hydro4); }
+.Hydro5 { background-color: var(--hydro5); }
+
+.Dendro4 { background-color: var(--dendro4); }
+.Dendro5 { background-color: var(--dendro5); }
+
+.Electro4 { background-color: var(--electro4); }
+.Electro5 { background-color: var(--electro5); }
+
+.Anemo4 { background-color: var(--anemo4); }
+.Anemo5 { background-color: var(--anemo5); }
+
+.Cryo4 { background-color: var(--cryo4); }
+.Cryo5 { background-color: var(--cryo5); }
+
+.Geo4 { background-color: var(--geo4); }
+.Geo5 { background-color: var(--geo5); }

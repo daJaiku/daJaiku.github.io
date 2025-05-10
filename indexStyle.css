@@ -1,0 +1,28 @@
+html
+{
+    padding: 10%;
+    background-color: #222;
+    text-align: center;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a
+{
+    border: 5px solid;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #222;
+    padding: 10px;
+    margin:10px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+a:visited {
+    color: #fff;
+}

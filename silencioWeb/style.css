@@ -1,0 +1,57 @@
+html
+{
+    background-color: #222;
+    color: #ccc;
+
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    margin: -1% 25%;
+    text-align: center;
+
+    user-select: none;
+}
+
+#titulo
+{
+    background-color: #222;
+
+    top: 0;
+    padding-top: 5%;
+    position: sticky;
+}
+
+#botonera
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boton
+{
+    background-color: #555;
+    transition: background-color 0.4s;
+
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid;
+    border-radius: 10%;
+    
+    cursor: pointer;
+    box-shadow: 0 0 7px #aaa;
+}
+
+.imagen
+{
+    width: 100px;
+    height: 100px;
+
+    border: 2px solid;
+    border-radius: 10%;
+}
+
+.texto
+{
+    margin-top: 10px;
+}

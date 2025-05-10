@@ -1,0 +1,72 @@
+[
+    {
+        "nombre": "Tubería",
+        "imagen": "./images/0_metal_pipe.jpg",
+        "sonido": "./sounds/0_metal_pipe.mp3"
+    },
+    {
+        "nombre": "Gnomo",
+        "imagen": "./images/1_reverb_gnome.jpg",
+        "sonido": "./sounds/1_reverb_gnome.mp3"
+        
+    },
+    {
+        "imagen": "./images/2_vine_boom.jpg",
+        "sonido": "./sounds/2_vine_boom.mp3",
+        "nombre": "Vine Boom"
+    },
+    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },    {
+        "imagen": "./images/3_pikmin.jpg",
+        "sonido": "./sounds/3_pikmin.mp3",
+        "nombre": "Pikmin"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    }
+]
