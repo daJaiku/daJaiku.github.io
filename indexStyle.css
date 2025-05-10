@@ -1,6 +1,5 @@
 html
 {
-    padding: 10%;
     background-color: #222;
     text-align: center;
     color: #fff;
@@ -11,6 +10,7 @@ a
 {
     border: 5px solid;
     border-color: #fff;
+    color: #fff;
     border-radius: 5px;
     background-color: #222;
     padding: 10px;
@@ -20,9 +20,36 @@ a
     cursor: pointer;
     text-decoration: none;
     font-size: 20px;
-    transition: all 0.3s ease;
+    width: 300px;
+
+    scale: 1;
+    transition: 0.5s ease;
 }
 
-a:visited {
+a:visited
+{
     color: #fff;
+}
+
+a:hover
+{
+    background-color: #444;
+    transition: 0.5s ease;
+    scale: 1.2;
+}
+
+#top
+{
+    background-color: #d0007c;
+    transform: translateY(-50%);
+}
+
+#logo
+{
+    width: 10%;
+    height: auto;
+    border-radius: 10%;
+    margin: 5%;
+    transform: translateY(70%);
+    border: 10px solid #222;
 }

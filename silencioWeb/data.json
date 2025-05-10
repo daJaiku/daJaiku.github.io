@@ -19,50 +19,341 @@
         "imagen": "./images/3_pikmin.jpg",
         "sonido": "./sounds/3_pikmin.mp3",
         "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
-    },    {
-        "imagen": "./images/3_pikmin.jpg",
-        "sonido": "./sounds/3_pikmin.mp3",
-        "nombre": "Pikmin"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
+    },
+    {
+        "imagen": "./images/4_discord.jpg",
+        "sonido": "./sounds/4_discord.mp3",
+        "nombre": "DIscord"
     },
     {
         "imagen": "./images/4_discord.jpg",
