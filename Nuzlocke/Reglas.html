@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+    <head>       
+        <title>Reglas Nuzlocke</title>
+        <link rel="icon" href='https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Pok%C3%A9_Ball_icon.svg/2052px-Pok%C3%A9_Ball_icon.svg.png'>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	    
+        <link rel="stylesheet" href="Estilo.css">
+        <script src="Scripts.js"></script>
+    </head>
+
+    <body onload="change('gen1');">
+
+        <h1>Reglas Nuzlocke</h1>
+
+        <div id="botonera">
+            <button id="gen1" onclick="change('gen1')">Generación 1</button>
+            <button id="gen2" onclick="change('gen2')">Generación 2</button>
+            <button id="gen3" onclick="change('gen3')">Generación 3</button>
+            <button id="gen4" onclick="change('gen4')">Generación 4</button>
+            <button id="gen5" onclick="change('gen5')">Generación 5</button>
+            <button id="gen6" onclick="change('gen6')">Generación 6</button>
+            <button id="gen7" onclick="change('gen7')">Generación 7</button>
+            <button id="gen8" onclick="change('gen8')">Generación 8</button>
+            <!-- <button id="gen9" onclick="change('gen9')">Generación 9</button> -->
+            <!--Añadir botones según las generaciones aumenten-->
+
+            <hr>
+        </div>
+
+
+        <h2>Muertes</h2>
+
+        <div>-Pokémon debilitado, Pokémon muerto.</div>
+        <div>-Se considera GAME OVER cuando te quedas sin Pokémon, incluyendo los del PC.</div>
+
+
+        <h2>Captura</h2>
+
+        <div class="gen1 gen2 gen3 gen4 gen5 gen6 gen7">-Sólo se puede atrapar el primer Pokémon de cada ruta.</div>
+        <div class="gen8">-El Pokémon a atrapar será el primer encuentro aleatorio (si hay hierba alta) o el primer Pokémon a ciegas (si se está en una cueva).</div>
+        <div class="gen8">-En el Área Silvestre se podrá atrapar un Pokémon por zona.</div>
+
+        <div>-Tienes que buscar otro Pokémon distinto si sale repetido o se tiene la evolución.</div>
+        <div>-Si el Pokémon lo has atrapado previamente, pero está muerto, debes atraparlo igualmente.</div>
+        <div>-Si el Pokémon lo has intercambiado previamente, debes atraparlo igualmente.</div>
+
+        <div class="gen4 gen5">-Si te sale un combate doble contra Pokémon salvajes, puedes elegir a quién atrapar.</div>
+        <div class="gen6">-Si te sale una horda, puedes elegir a quién atrapar.</div>
+        <div class="gen7">-Si el Pokémon salvaje inicia una cadena S.O.S., se deberá atrapar al Pokémon que la inició.</div>
+
+        <div class="gen6">-Prohibido usar el DexNav para atrapar Pokémon.</div>
+        <div class="gen8">-Prohibido atrapar Pokémon de Incursión.</div>
+
+        <div>-Los Pokémon regalados están permitidos.</div>
+
+        <div class="gen1 gen2 gen3 gen4">-Sólo se puede comprar un Pokémon en el casino.</div>
+
+        <div>-Prohibido usar Pokémon legendarios.</div>
+
+
+        <h2>Gestión de objetos</h2>
+
+        <div>-Prohibido comprar objetos que recuperen Puntos de Salud (PS), Puntos de Poder (PP), curen efectos secundarios o mejoren el rendimiento durante los combates.</div>
+
+        <div class="gen1 gen2 gen3 gen4 gen5 gen6">-Al llegar a la Liga Pokémon, está permitido comprar únicamente Hiperpociones (25 como máximo) y Curas Totales (15 como máximo).</div>
+        <div class="gen7">-Al llegar a la Liga Pokémon, está permitido comprar únicamente Máximas Pociones (20 como máximo) y Curas Totales (15 como máximo).</div>
+        <div class="gen8">-Al llegar a la Liga Pokémon, está permitido comprar únicamente Máximas Pociones (15 como máximo) y Curas Totales (10 como máximo).</div>
+
+        <div class="gen8">-Prohibido coger objetos ocultos en el Área Silvestre.</div>
+
+
+        <h2>Mecánicas especiales</h2>
+
+        <div class="gen6">-Prohibido el uso de la Megaevolución.</div>
+        <div class="gen7">-Prohibido el uso de los Movimientos Z.</div>
+        <div class="gen8">-Prohibido el uso del Dinamax.</div>
+
+
+        <h2>Desplazamiento</h2>
+
+        <div class="gen1 gen2 gen3 gen4 gen5 gen6">-Prohibido el uso de la MO Vuelo fuera de combate.</div>
+        <div class="gen6">-Prohibido el uso del Ultravuelo.</div>
+        <div class="gen7">-Prohibido el uso del Vuelo Charizard.</div>
+        <div class="gen8">-Prohibido el uso del Corvitaxi.</div>
+
+
+        <h2>Bayas</h2>
+
+        <div class="gen3 gen4 gen6">-Prohibido plantar bayas.</div>
+        <div class="gen6 gen7 gen8">-No abusar de la generación diaria de bayas.</div>
+
+
+        <h2>Actividades alternativas</h2>
+
+        <div class="gen4 gen5 gen6 gen7 gen8">-Prohibido el intercambio vía Intenet.</div>
+
+        <div>-No se puede intercambiar un Pokémon muerto.</div>
+
+        <div class="gen4">-Prohibido el uso de la Plaza Amistad.</div>
+        <div class="gen6">-Prohibido el uso del PokéRecreo o del Superentrenamiento.</div>
+        <div class="gen7">-Prohibido el uso del PokéResort o del PokéRelax.</div>
+        <div class="gen8">-Prohibido el uso del Campamento Pokémon o de los PokéTrabajos.</div>
+
+
+        <h2>Otros</h2>
+
+        <div>-Prohibido el uso de la Guardería.</div>
+
+        <div class="gen8">-Prohibido el uso del PC portátil.</div>
+        <div class="gen8">-Prohibido realizar Incursiones.</div>
+
+        <div class="gen1 gen2 gen3 gen4 gen5 gen6 gen7">-Prohibido el uso de Puntos Batalla (PB).</div>
+        <div class="gen8">-Prohibido el uso de Vatios (W) o Puntos Batalla (PB).</div>
+
+        <!--habilidad recogida banneada
+            farmear objeto con ladrón banneado
+            -->
+
+
+        <h2>DualLocke</h2>
+
+        <div>-Es recomendable que los integrantes del Nuzlocke tengan versiones opuestas.</div>
+        <div>-Los integrantes del Nuzlocke no podrán elegir el mismo inicial.</div>
+
+        <div>-Se permite el intercambio de Pokémon entre integrantes del Nuzlocke, exclusivamente para evolucionar Pokémon.</div>
+
+        <div class="gen1 gen2 gen3 gen4 gen5 gen6 gen8">-Después de derrotar a un Líder de Gimnasio o superar la Liga Pokémon, se realizará un combate de exhibición entre ambos integrantes del Nuzlocke.</div>
+        <div class="gen7">-Después de derrotar a un Pokémon Dominante, un Kahuna o superar la Liga Pokémon, se realizará un combate de exhibición entre ambos integrantes del Nuzlocke.</div>
+
+        <div>-El Nuzlocke lo gana quién se pase la Liga Pokémon y consiga más puntos en dichos combates.</div>
+        <div>-Si se juega con apuestas, cada vez que se te muera un Pokémon deberás meter 50 céntimos en el bote. El dinero se lo llevará el vencedor del próximo combate de exhibición.</div>
+
+        <br />
+        <br />
+
+        <a href="Hall.html" target="blank">
+            <h6>Hall de la Fama</h6>
+        </a>
+
+        <a href="https://twitter.com/dajaiku" target="_blank">
+            <h6>Normas por @daJaiku en Twitter</h6>
+        </a>    
+    </body>
+</html>
