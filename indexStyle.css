@@ -1,26 +1,40 @@
+:root
+{
+    --hlcolor: #d0007cdd;
+    --bgcolor: #222;
+    --textcolor: #fff;
+}
+
 html
 {
-    background-color: #222;
+    background-color: var(--bgcolor);
     text-align: center;
-    color: #fff;
+    color: var(--textcolor);
     font-family: 'Courier New', Courier, monospace;
 }
 
 a
 {
-    border: 5px solid;
-    border-color: #fff;
-    color: #fff;
-    border-radius: 5px;
-    background-color: #222;
-    padding: 10px;
-    margin:10px;
-    display: inline-block;
-    text-align: center;
-    cursor: pointer;
-    text-decoration: none;
     font-size: 20px;
     width: 300px;
+
+    padding: 10px;
+    margin:10px;
+
+    border: 5px solid;
+    border-radius: 5px;
+
+    border-color: var(--textcolor);
+    color: var(--textcolor);
+    background-color: var(--bgcolor);
+
+
+    display: inline-block;
+    text-align: center;
+
+    text-decoration: none;
+    cursor: pointer;
+
 
     scale: 1;
     transition: 0.5s ease;
@@ -40,8 +54,9 @@ a:hover
 
 #top
 {
-    background-color: #d0007c;
+    background-color: var(--hlcolor);
     transform: translateY(-50%);
+    border-radius: 20px;
 }
 
 #logo
@@ -52,4 +67,9 @@ a:hover
     margin: 5%;
     transform: translateY(70%);
     border: 10px solid #222;
+}
+
+#main
+{
+    transform: translateY(-20%)
 }
