@@ -16,18 +16,17 @@ html
     margin: -1% 0%;
 }
 
-#top
+header
 {
     background-color: var(--hlcolor);
     height: 400px;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(-25%);
     border-radius: 20px;
 
-    position: sticky;
-    top: 0;
+    /* position: sticky;
+    top: 0; */
 
-    z-index: 10;
 }
 
 #logo
@@ -40,10 +39,28 @@ html
 }
 
 
-#cuerpo
+body
 {
     transform: translateY(-100px);
 }
+
+#titulo
+{
+    background-color: var(--bgcolor);
+    /* margin: 0% 10%; */
+
+
+    /* padding-top: 50px;
+    transform: translateY(-100px); */
+    
+
+    /* position: sticky;
+    top: 150px;
+
+    z-index: 1; */
+    
+}
+
 
 #botonera
 {
@@ -68,10 +85,6 @@ a
     border-color: var(--textcolor);
     color: var(--textcolor);
     background-color: var(--bgcolor);
-
-
-    display: inline-block;
-    text-align: center;
 
     text-decoration: none;
     cursor: pointer;
