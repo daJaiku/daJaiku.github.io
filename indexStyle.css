@@ -44,6 +44,7 @@ header::before
     border-radius: 20px;
     transform: translateY(250px);
     border: 10px solid var(--bgcolor);
+
 }
 
 

@@ -15,7 +15,20 @@ html
     font-family: 'Courier New', Courier, monospace;
 
 
-    margin: 0% 20%;
+
+    
+}
+
+body
+{
+    transition: 0.5s ease;
+
+
+    @media (min-width: 1400px)
+    {
+        margin: 0% 26%;
+        
+    }
 }
 
 button
