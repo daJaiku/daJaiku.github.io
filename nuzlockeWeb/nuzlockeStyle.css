@@ -24,9 +24,9 @@ body
     transition: 0.5s ease;
 
 
-    @media (min-width: 1400px)
+    @media (min-width: 1300px)
     {
-        margin: 0% 26%;
+        margin: 0% 30%;
         
     }
 }
@@ -38,7 +38,7 @@ button
     color: var(--textcolor);
 
     margin: 0.5% 0 0.5%;
-    padding: 10px;
+    padding: 5px 8px;
     border-radius: 10px;
     border-style: solid;
 

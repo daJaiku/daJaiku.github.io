@@ -1,0 +1,562 @@
+ 
+{   
+    "elements": ["Físico", "Fuego", "Hielo", "Rayo", "Viento", "Cuántico", "Imaginario"],
+    "elementsColors": ["#c1c1c1", "#d5d5da", "#df7266", "#fd8666", "#8dccf9", "#abeaf9", 
+                        "#c978ff", "#e796ff", "#9acbbc", "#b8e9bc", "#9898f4", "#b6b6f4", "#e0d495", "#fef295"],
+    "rarity": ["★★★★☆", "★★★★★"],
+    "weapons": ["Destrucción", "Cacería", "Erudición", "Armonía", "Nihilidad", "Conservación", "Abundancia", "Reminiscencia"],
+    "characters":[   
+    {
+        "name": "Siete de Marzo",
+        "element": "Hielo",
+        "weapon": "Conservación",
+        "region": "Expreso Astral",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Dan Heng",
+        "element": "Viento",
+        "weapon": "Cacería",
+        "region": "Expreso Astral",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Arlan",
+        "element": "Rayo",
+        "weapon": "Destrucción",
+        "region": "Estación Espacial de Herta",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Asta",
+        "element": "Fuego",
+        "weapon": "Armonía",
+        "region": "Estación Espacial de Herta",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Herta",
+        "element": "Hielo",
+        "weapon": "Erudición",
+        "region": "Estación Espacial de Herta",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Hook",
+        "element": "Fuego",
+        "weapon": "Destrucción",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Natasha",
+        "element": "Físico",
+        "weapon": "Abundancia",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false    
+    },
+    {
+        "name": "Pela",
+        "element": "Hielo",
+        "weapon": "Nihilidad",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Qingque",
+        "element": "Cuántico",
+        "weapon": "Erudición",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Sampo",
+        "element": "Viento",
+        "weapon": "Nihilidad",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Serval",
+        "element": "Rayo",
+        "weapon": "Erudición",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Sushang",
+        "element": "Físico",
+        "weapon": "Cacería",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Tingyun",
+        "element": "Rayo",
+        "weapon": "Armonía",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Trazacaminos",
+        "element": "Físico",
+        "weapon": "Destrucción",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Trazacaminos",
+        "element": "Fuego",
+        "weapon": "Conservación",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Bailu",
+        "element": "Rayo",
+        "weapon": "Abundancia",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Bronya",
+        "element": "Viento",
+        "weapon": "Armonía",
+        "region": "Belobog",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Clara",
+        "element": "Físico",
+        "weapon": "Destrucción",
+        "region": "Belobog",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Gepard",
+        "element": "Hielo",
+        "weapon": "Conservación",
+        "region": "Belobog",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Himeko",
+        "element": "Fuego",
+        "weapon": "Erudición",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Jing Yuan",
+        "element": "Rayo",
+        "weapon": "Erudición",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Seele",
+        "element": "Cuántico",
+        "weapon": "Cacería",
+        "region": "Belobog",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Welt",
+        "element": "Imaginario",
+        "weapon": "Nihilidad",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Yanqing",
+        "element": "Hielo",
+        "weapon": "Cacería",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Yukong",
+        "element": "Imaginario",
+        "weapon": "Armonía",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Silver Wolf",
+        "element": "Cuántico",
+        "weapon": "Nihilidad",
+        "region": "Cazadores de Estelaron",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Luocha",
+        "element": "Imaginario",
+        "weapon": "Abundancia",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Luka",
+        "element": "Físico",
+        "weapon": "Nihilidad",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Blade",
+        "element": "Viento",
+        "weapon": "Destrucción",
+        "region": "Cazadores de Estelaron",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Kafka",
+        "element": "Rayo",
+        "weapon": "Nihilidad",
+        "region": "Cazadores de Estelaron",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Lynx",
+        "element": "Cuántico",
+        "weapon": "Abundancia",
+        "region": "Belobog",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Dan Heng - Imbibitor Lunae",
+        "element": "Imaginario",
+        "weapon": "Destrucción",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Fu Xuan",
+        "element": "Cuántico",
+        "weapon": "Conservación",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Guinaifen",
+        "element": "Fuego",
+        "weapon": "Nihilidad",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Jingliu",
+        "element": "Hielo",
+        "weapon": "Destrucción",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Topaz y Conti",
+        "element": "Fuego",
+        "weapon": "Cacería",
+        "region": "Corporación para la Paz Interastral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Hanya",
+        "element": "Físico",
+        "weapon": "Armonía",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Huohuo",
+        "element": "Viento",
+        "weapon": "Abundancia",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Argenti",
+        "element": "Físico",
+        "weapon": "Erudición",
+        "region": "Caballeros de la Belleza",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Xueyi",
+        "element": "Cuántico",
+        "weapon": "Destrucción",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Ruan Mei",
+        "element": "Hielo",
+        "weapon": "Armonía",
+        "region": "Estación Espacial de Herta",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Dr. Ratio",
+        "element": "Imaginario",
+        "weapon": "Cacería",
+        "region": "Sociedad del Conocimiento",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Misha",
+        "element": "Hielo",
+        "weapon": "Destrucción",
+        "region": "Colonipenal",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Cisne Negro",
+        "element": "Viento",
+        "weapon": "Nihilidad",
+        "region": "Jardín de los Recuerdos",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Sparkle",
+        "element": "Cuántico",
+        "weapon": "Armonía",
+        "region": "Bufones Enmascarados",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Gallagher",
+        "element": "Fuego",
+        "weapon": "Abundancia",
+        "region": "Colonipenal",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Acheron",
+        "element": "Rayo",
+        "weapon": "Nihilidad",
+        "region": "Autodestrucctores",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Aventurino",
+        "element": "Imaginario",
+        "weapon": "Conservación",
+        "region": "Corporación para la Paz Interastral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Trazacaminos",
+        "element": "Imaginario",
+        "weapon": "Armonía",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Robin",
+        "element": "Físico",
+        "weapon": "Armonía",
+        "region": "Colonipenal",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Boothill",
+        "element": "Físico",
+        "weapon": "Cacería",
+        "region": "Vigilantes de la Galaxia",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Luciérnaga",
+        "element": "Fuego",
+        "weapon": "Destrucción",
+        "region": "Cazadores de Estelaron",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Jade",
+        "element": "Cuántico",
+        "weapon": "Erudición",
+        "region": "Corporación para la Paz Interastral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Siete de Marzo",
+        "element": "Imaginario",
+        "weapon": "Cacería",
+        "region": "Expreso Astral",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Yunli",
+        "element": "Físico",
+        "weapon": "Destrucción",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Jiaoqiu",
+        "element": "Fuego",
+        "weapon": "Nihilidad",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Moze",
+        "element": "Rayo",
+        "weapon": "Cacería",
+        "region": "Luofu de Xianzhou",
+        "rarity": 4,
+        "unlocked": false
+    },
+    {
+        "name": "Feixiao",
+        "element": "Viento",
+        "weapon": "Cacería",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Lingsha",
+        "element": "Fuego",
+        "weapon": "Abundancia",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Rappa",
+        "element": "Imaginario",
+        "weapon": "Erudición",
+        "region": "Vigilantes de la Galaxia",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Sunday",
+        "element": "Imaginario",
+        "weapon": "Armonía",
+        "region": "Colonipenal",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Fugue",
+        "element": "Fuego",
+        "weapon": "Nihilidad",
+        "region": "Luofu de Xianzhou",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Trazacaminos",
+        "element": "Hielo",
+        "weapon": "Reminiscencia",
+        "region": "Expreso Astral",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Sra. Herta",
+        "element": "Hielo",
+        "weapon": "Erudición",
+        "region": "Estación Espacial de Herta",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Aglaea",
+        "element": "Rayo",
+        "weapon": "Reminiscencia",
+        "region": "Amphoreus",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Tribbie",
+        "element": "Cuántico",
+        "weapon": "Armonía",
+        "region": "Amphoreus",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Mydei",
+        "element": "Imaginario",
+        "weapon": "Destrucción",
+        "region": "Amphoreus",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Castorice",
+        "element": "Cuántico",
+        "weapon": "Reminiscencia",
+        "region": "Amphoreus",
+        "rarity": 5,
+        "unlocked": false
+    },
+    {
+        "name": "Anaxa",
+        "element": "Viento",
+        "weapon": "Erudición",
+        "region": "Amphoreus",
+        "rarity": 5,
+        "unlocked": false
+    }
+    ]
+}

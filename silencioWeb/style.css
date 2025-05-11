@@ -6,11 +6,22 @@ html
     font-family: Arial, sans-serif;
     font-weight: bold;
 
-    margin: -1% 25%;
+    margin: -1% 0%;
     text-align: center;
 
     user-select: none;
 }
+
+body
+{
+    transition: 0.5s ease;
+
+    @media (min-width: 1250px)
+    {
+        margin: 1% 25%;
+    }
+}
+
 
 #titulo
 {

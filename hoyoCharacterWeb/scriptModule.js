@@ -1,12 +1,13 @@
-import characters from "./characters.json" with { type: "json" };
+import JSON from "./genshin.json" with { type: "json" };
 
-var n = characters.length;
 
-var elements = ["Pyro", "Hydro", "Dendro", "Electro", "Anemo", "Cryo", "Geo"]
-var rarity = ["★★★★☆", "★★★★★"]
-var weapons = ["Espada", "Mandoble", "Lanza", "Arco", "Catalizador"]
+var characterList = JSON.characters;
 
-var id = 0;
+var elementList = JSON.elements;
+var rarityList = JSON.rarity;
+var weaponList = JSON.weapons;
+
+var elementColorList = JSON.elementsColors;
 
 
 export function load()
@@ -24,57 +25,54 @@ function createTable()
 
     //Blank cell for the first column
     var cell = document.createElement("th");
-    cell.innerHTML = countUnlockedCharacters() + "/" + characters.length;
+    
+    cell.innerHTML = countUnlockedCharacters() + "/" + characterList.length;
     cell.setAttribute("id", "count");
     row.appendChild(cell);
 
     //Create header cells for each element and rarity
-    for(var i = 0; i < elements.length*rarity.length; i++)
+    for(var i = 0; i < elementList.length*rarityList.length; i++)
     {
 
         cell = document.createElement("th");
-        cell.innerHTML = elements[parseInt((i/2))] + "<br>" + rarity[i%2];
+        cell.innerHTML = elementList[parseInt((i/rarityList.length))] + "<br>" + rarityList[i%rarityList.length];
 
-        cell.classList.add(elements[parseInt((i/2))] + (4+i%2));
+        cell.style.backgroundColor = elementColorList[i];
 
         row.appendChild(cell);      
     }
     table.appendChild(row);
 
+
     //Create rows for each weapon
-    for (var i = 0; i < weapons.length; i++)
+    for (var i = 0; i < weaponList.length; i++)
     {
         row = document.createElement("tr");
 
         cell = document.createElement("th");
-        cell.innerHTML = weapons[i];
+        cell.innerHTML = weaponList[i];
         row.appendChild(cell);
 
         
         //Create cells for each element and rarity
-        for(var j = 0; j < elements.length*rarity.length; j++)
+        for(var j = 0; j < elementList.length*rarityList.length; j++)
         {
             cell = document.createElement("td");
-            cell.setAttribute("class", elements[parseInt((j/2))] + (4+j%2));
+            cell.style.backgroundColor = elementColorList[j];
 
-            var filteredList = characters.filter(character => character.element == elements[parseInt((j/2))] && 
-                                                 character.rarity == (4+j%2) && character.weapon == weapons[i]);
+            var filteredList = characterList.filter(character => character.element == elementList[parseInt((j/rarityList.length))] && 
+                                                 character.rarity == (4+j%rarityList.length) && character.weapon == weaponList[i]);
 
-            if(filteredList.length != 0) 
-                //Create buttons for each character
-                for (var k = 0; k < filteredList.length; k++)
-                {
-                    var button = document.createElement("div");
+            //Create buttons for each character
+            for (var k = 0; k < filteredList.length; k++)
+            {
+                var button = document.createElement("div");
 
+                button.setAttribute("onclick", "changeState(this)");
 
-                    button.setAttribute("id", id);
-                    button.setAttribute("onclick", "changeState("+id+")");
-                    id++;
-
-
-                    button.innerHTML = filteredList[k].name;
-                    cell.appendChild(button);
-                }
+                button.innerHTML = filteredList[k].name;
+                cell.appendChild(button);
+            }
 
             row.appendChild(cell);      
         }
@@ -86,19 +84,15 @@ function createTable()
 }
 
 
-export function changeState(buttonId)
+export function changeState(button)
 {
-    //Get the button that was clicked
-    var button = document.getElementById(buttonId);
-
-    //Get the name of the button that was clicked
     var characterName = button.innerHTML;
+    var cellColor = button.parentElement.style.backgroundColor;
 
-    //Get the parent cell of the button
-    var cellCategory = button.parentElement.getAttribute("class");
+    var colorIndex = (Array.from(button.parentElement.parentElement.children).indexOf(button.parentElement)-1);
+    var characterElement = parseInt(colorIndex/rarityList.length);
 
-
-    var character = characters.find(c => c.name === characterName);
+    var character = characterList.find(c => c.name === characterName && c.element == elementList[characterElement]);
     character.unlocked = !character.unlocked;
 
     if(!character.unlocked)
@@ -109,57 +103,12 @@ export function changeState(buttonId)
     else
     {
         button.style.backgroundColor = "#222";
+        button.style.color = cellColor;
        
-
-        switch(cellCategory)
-        {
-            case "Pyro4":
-                 button.style.color = "#e18a70";
-                break;
-            case "Hydro4":
-                button.style.color = "#00c6ff";
-                break;
-            case "Dendro4":
-                button.style.color = "#93cd29";
-                break;
-            case "Electro4":
-                button.style.color = "#c19cff";
-                break;
-            case "Anemo4":
-                button.style.color = "#89d7cc";
-                break;
-            case "Cryo4":
-                button.style.color = "#a6dbf9";
-                break;
-            case "Geo4":
-                button.style.color = "#d7b861";
-                break;
-            case "Pyro5":
-                button.style.color = "#ffa870";
-                break;
-            case "Hydro5":
-                button.style.color = "#04e8ff";
-                break;
-            case "Dendro5":
-                button.style.color = "#b1eb29";
-                break;
-            case "Electro5":
-                button.style.color = "#dfbaff";
-                break;
-            case "Anemo5":
-                button.style.color = "#a7f5cc";
-                break;
-            case "Cryo5":
-                button.style.color = "#c4f9f9";
-                break;
-            case "Geo5":
-                button.style.color = "#f5d661";
-                break;
-        }   
     }   
 
     var countCell = document.getElementById("count");
-    countCell.innerHTML = countUnlockedCharacters() + "/" + characters.length; 
+    countCell.innerHTML = countUnlockedCharacters() + "/" + characterList.length; 
     
     //TO DO: Save the state of the character in the JSON file
 
@@ -167,35 +116,29 @@ export function changeState(buttonId)
 
 
 
-export function saveCharactersToFile()
-{
-    const jsonData = JSON.stringify(characters, null, 2);
+// export function saveCharactersToFile()
+// {
+//     const jsonData = JSON.stringify(characters, null, 2);
 
-    // Create a Blob with the JSON data
-    const blob = new Blob([jsonData], { type: "application/json" });
+//     // Create a Blob with the JSON data
+//     const blob = new Blob([jsonData], { type: "application/json" });
 
-    // Create a link element
-    const link = document.createElement("a");
+//     // Create a link element
+//     const link = document.createElement("a");
 
-    // Set the download attribute with a filename
-    link.download = "characters00.json";
+//     // Set the download attribute with a filename
+//     link.download = "characters00.json";
 
-    // Create a URL for the Blob and set it as the href attribute
-    link.href = URL.createObjectURL(blob);
+//     // Create a URL for the Blob and set it as the href attribute
+//     link.href = URL.createObjectURL(blob);
 
-    // Append the link to the document, trigger the download, and remove the link
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-}
+//     // Append the link to the document, trigger the download, and remove the link
+//     document.body.appendChild(link);
+//     link.click();
+//     document.body.removeChild(link);
+// }
 
 function countUnlockedCharacters()
 {
-    var count = 0;
-    for (var i = 0; i < characters.length; i++)
-    {
-        if (characters[i].unlocked)
-            count++;
-    }
-    return count;
+    return characterList.filter(character => character.unlocked).length;
 }
