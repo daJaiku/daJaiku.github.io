@@ -1,8 +1,8 @@
 :root
 {
-    --hlcolor: #d0007cdd;
+    --contrastcolor: #d0007cdd;
     --bgcolor: #222;
-    --bghlcolor: #444;
+    --hlcolor: #444;
     --textcolor: #fff;
 }
 
@@ -18,15 +18,23 @@ html
 
 header
 {
-    background-color: var(--hlcolor);
+    background-color: var(--contrastcolor);
     height: 400px;
     width: 100%;
     transform: translateY(-25%);
     border-radius: 20px;
+}
 
-    /* position: sticky;
-    top: 0; */
-
+/* find if this works */
+header::before
+{
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: var(--contrastcolor);
 }
 
 #logo
@@ -35,7 +43,7 @@ header
     height: auto;
     border-radius: 20px;
     transform: translateY(250px);
-    border: 10px solid #222;
+    border: 10px solid var(--bgcolor);
 }
 
 
@@ -96,7 +104,7 @@ a
 
 a:hover
 {
-    background-color: var(--bghlcolor);
+    background-color: var(--hlcolor);
     transition: 0.5s ease;
     scale: 1.05;
 }

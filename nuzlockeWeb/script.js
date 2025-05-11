@@ -22,5 +22,5 @@ function change(gen)
         document.getElementsByClassName(gen)[i].style.display= "block";
     
     //Colorea el boton seleccionado
-    document.getElementById(gen).style.background= 'rgb(255, 255, 255, 0.5)';
+    document.getElementById(gen).style.background= '#666';
 }

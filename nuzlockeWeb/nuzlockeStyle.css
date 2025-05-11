@@ -1,46 +1,57 @@
+:root
+{
+    --bgcolor: #222;
+    --hlcolor: #444;
+    --hlcolor2: #222b;
+    --textcolor: #fff;
+}
+
+
 html
 {
-    background-color: rgb(30, 30, 40);
-    color: white;
+    background-color: var(--bgcolor);
+    color: var(--textcolor);
 
-    display: flex;
+    font-family: 'Courier New', Courier, monospace;
 
-    font-family: Consolas, -apple-system;
+
+    margin: 0% 20%;
 }
 
 button
 {
     background: inherit;
-    border-color: white;
-    color: white;
+    border-color: var(--textcolor);
+    color: var(--textcolor);
 
     margin: 0.5% 0 0.5%;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     border-style: solid;
 
     transition: 0.2s ease-in;
 
-    font-family: Consolas, -apple-system;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 button:hover
 {
-    background-color: rgb(255, 255, 255, 0.25);
+    background-color: var(--hlcolor);
 }
 
 hr
 {
-    background-color: white;
+    background-color: var(--textcolor);
     border-style:solid;
 }
 
 #botonera
 {
-    background-color: rgb(30, 30, 40);
+    background-color: var(--bgcolor);
 
     top: 0;
-    padding-top: 1%;
+    padding: 1% 1% 0%;
+    margin: 0 -1%;
 
     position: sticky;
 }
@@ -53,14 +64,12 @@ a
 
 img
 {
-    background-color: rgb(30, 30, 40);
+    background-color: var(--bgcolor);
 
     height: 200px;
     width: 200px;
     margin: 5px;
     border-radius: 10px;
-
-
 }
 
 #team
@@ -73,8 +82,9 @@ img
 {
     position: relative;
 
-    background-color:white;
-    color: rgb(30, 30, 40);
+    background-color: var(--textcolor);
+    color: var(--bgcolor);
+    font-weight: bold;
 
     display: flex;
     flex-direction: column;
@@ -92,7 +102,7 @@ img
 
     color: white;
     border-radius: 10px;
-    background-color: rgb(30, 30, 40, 0.8);
+    background-color: var(--hlcolor2);
     width: 90%;
     height: 82%;
     top: 5%;
