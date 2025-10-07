@@ -55,7 +55,16 @@ body
     position: sticky;
     position: -webkit-sticky;
 
-    top: 25% ;
+
+    @media (min-width: 1300px)
+    {
+        top: 25% ;
+    }
+    @media (max-width: 1300px)
+    {
+        top: 15% ;
+    }
+    
 
     background-color: var(--bgcolor);
 }
