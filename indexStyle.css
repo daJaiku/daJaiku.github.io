@@ -14,7 +14,7 @@ html
     font-family: 'Courier New', Courier, monospace;
 
     margin: -1% 0%;
-    /* overflow: hidden; */
+    /* overflow: visible; */
 }
 
 header
@@ -53,6 +53,7 @@ body
 #presentacion
 {
     position: sticky;
+    position: -webkit-sticky;
 
     top: 25% ;
 
@@ -69,9 +70,9 @@ body
     margin-top: 40px;
 
 
-    position: sticky;
+    /* position: sticky;
 
-    top: 0;
+    top: 0; */
 
         @media (max-width: 1300px)
     {
