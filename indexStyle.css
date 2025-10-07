@@ -60,10 +60,10 @@ body
     {
         top: 25% ;
     }
-    /* @media (max-width: 1300px)
+    @media (max-width: 1300px)
     {
-        top: 5% ;
-    } */
+        top: 1% ;
+    }
     
 
     background-color: var(--bgcolor);
