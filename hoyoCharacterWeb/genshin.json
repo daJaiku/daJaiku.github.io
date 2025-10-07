@@ -780,6 +780,54 @@
             "region": "Fontaine",
             "rarity": 5,
             "unlocked": false
+        },
+        {
+            "name": "Dahlia",
+            "element": "Hydro",
+            "weapon": "Espada",
+            "region": "Mondstadt",
+            "rarity": 4,
+            "unlocked": false
+        },
+        {
+            "name": "Skirk",
+            "element": "Cryo",
+            "weapon": "Espada",
+            "region": "???",
+            "rarity": 5,
+            "unlocked": false
+        },
+        {
+            "name": "Ineffa",
+            "element": "Electro",
+            "weapon": "Lanza",
+            "region": "Nod Krai",
+            "rarity": 5,
+            "unlocked": false
+        },
+        {
+            "name": "Aino",
+            "element": "Hydro",
+            "weapon": "Mandoble",
+            "region": "Nod Krai",
+            "rarity": 4,
+            "unlocked": false
+        },
+        {
+            "name": "Lauma",
+            "element": "Dendro",
+            "weapon": "Catalizador",
+            "region": "Nod Krai",
+            "rarity": 5,
+            "unlocked": false
+        },
+        {
+            "name": "Flins",
+            "element": "Electro",
+            "weapon": "Lanza",
+            "region": "Nod Krai",
+            "rarity": 5,
+            "unlocked": false
         }
         ]
     }

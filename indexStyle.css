@@ -14,6 +14,7 @@ html
     font-family: 'Courier New', Courier, monospace;
 
     margin: -1% 0%;
+    /* overflow: hidden; */
 }
 
 header
@@ -25,18 +26,6 @@ header
     border-radius: 20px;
 }
 
-/* find if this works */
-header::before
-{
-    content: '';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-    background-color: var(--contrastcolor);
-}
-
 #logo
 {
     width: 200px;
@@ -44,30 +33,30 @@ header::before
     border-radius: 20px;
     transform: translateY(250px);
     border: 10px solid var(--bgcolor);
-
 }
-
 
 body
 {
     transform: translateY(-100px);
 }
 
-#titulo
+
+#flecha
 {
+
+    @media (min-width: 1300px)
+    {
+        font-size: 0px;
+    }
+}
+
+#presentacion
+{
+    position: sticky;
+
+    top: 25% ;
+
     background-color: var(--bgcolor);
-    /* margin: 0% 10%; */
-
-
-    /* padding-top: 50px;
-    transform: translateY(-100px); */
-    
-
-    /* position: sticky;
-    top: 150px;
-
-    z-index: 1; */
-    
 }
 
 
@@ -78,9 +67,19 @@ body
     align-items: center;
 
     margin-top: 40px;
+
+
+    position: sticky;
+
+    top: 0;
+
+        @media (max-width: 1300px)
+    {
+        transform: translateY(80px);
+    }
 }
 
-a
+.boton
 {
     font-size: 20px;
     width: 300px;
@@ -100,20 +99,26 @@ a
 
 
     scale: 1;
-    transition: 1s ease;
+    transition: 0.5s ease;
 }
 
-a:hover
+
+.boton:hover
 {
     background-color: var(--hlcolor);
-    transition: 0.5s ease;
-    scale: 1.05;
+    transition: 0.2s ease;
+    scale: 1.10;
 }
 
 
+a
+{
+    color: var(--textcolor);
+    background-color: var(--bgcolor);
 
-
-
+    text-decoration: none;
+    cursor: pointer;
+}
 
 
 

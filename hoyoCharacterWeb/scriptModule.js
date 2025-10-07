@@ -1,39 +1,49 @@
-import JSON from "./genshin.json" with { type: "json" };
+import JSONfile from "./honkai.json" with { type: "json" };
 
 
-var characterList = JSON.characters;
+var characterList;
 
-var elementList = JSON.elements;
-var rarityList = JSON.rarity;
-var weaponList = JSON.weapons;
+var elementList;
+var rarityList;
+var weaponList;
 
-var elementColorList = JSON.elementsColors;
+var elementColorList;
+
+var localFile;
 
 
 export function load()
 {
+    characterList = JSONfile.characters;
+
+    elementList = JSONfile.elements;
+    rarityList = JSONfile.rarity;
+    weaponList = JSONfile.weapons;
+
+    elementColorList = JSONfile.elementsColors;
+
     createTable();
 }
 
 function createTable()
 {
-    //Create table
-    var table = document.createElement("table");
+    var table;
+    var row;
+    var cell;
 
-    //Create header row
-    var row = document.createElement("tr");
 
-    //Blank cell for the first column
-    var cell = document.createElement("th");
-    
-    cell.innerHTML = countUnlockedCharacters() + "/" + characterList.length;
+    table = document.createElement("table");
+
+    row = document.createElement("tr");
+
+    cell = document.createElement("th");
+    cell.innerHTML = 0 + "/" + characterList.length;
     cell.setAttribute("id", "count");
     row.appendChild(cell);
 
     //Create header cells for each element and rarity
     for(var i = 0; i < elementList.length*rarityList.length; i++)
     {
-
         cell = document.createElement("th");
         cell.innerHTML = elementList[parseInt((i/rarityList.length))] + "<br>" + rarityList[i%rarityList.length];
 
@@ -71,15 +81,14 @@ function createTable()
                 button.setAttribute("onclick", "changeState(this)");
 
                 button.innerHTML = filteredList[k].name;
-                cell.appendChild(button);
+                cell.appendChild(button);                    
             }
-
             row.appendChild(cell);      
+
         }
-
         table.appendChild(row);
-    }
 
+    }
     document.body.appendChild(table);
 }
 
@@ -89,10 +98,12 @@ export function changeState(button)
     var characterName = button.innerHTML;
     var cellColor = button.parentElement.style.backgroundColor;
 
+    //Sistema de seguridad para el caso de que haya un personaje con el mismo nombre
     var colorIndex = (Array.from(button.parentElement.parentElement.children).indexOf(button.parentElement)-1);
     var characterElement = parseInt(colorIndex/rarityList.length);
 
     var character = characterList.find(c => c.name === characterName && c.element == elementList[characterElement]);
+
     character.unlocked = !character.unlocked;
 
     if(!character.unlocked)
@@ -104,41 +115,84 @@ export function changeState(button)
     {
         button.style.backgroundColor = "#222";
         button.style.color = cellColor;
-       
     }   
 
     var countCell = document.getElementById("count");
     countCell.innerHTML = countUnlockedCharacters() + "/" + characterList.length; 
     
-    //TO DO: Save the state of the character in the JSON file
-
 }
 
-
-
-// export function saveCharactersToFile()
-// {
-//     const jsonData = JSON.stringify(characters, null, 2);
-
-//     // Create a Blob with the JSON data
-//     const blob = new Blob([jsonData], { type: "application/json" });
-
-//     // Create a link element
-//     const link = document.createElement("a");
-
-//     // Set the download attribute with a filename
-//     link.download = "characters00.json";
-
-//     // Create a URL for the Blob and set it as the href attribute
-//     link.href = URL.createObjectURL(blob);
-
-//     // Append the link to the document, trigger the download, and remove the link
-//     document.body.appendChild(link);
-//     link.click();
-//     document.body.removeChild(link);
-// }
 
 function countUnlockedCharacters()
 {
     return characterList.filter(character => character.unlocked).length;
+}
+
+
+
+
+export function loadJSON()
+{
+    //Load JSON file
+    var input = document.createElement("input");
+    input.type = "file";
+    input.accept = ".json";
+    input.onchange = e => { 
+        var file = e.target.files[0]; 
+        var reader = new FileReader();
+        reader.onload = function(event)
+        {
+            //console.log(event.target.result);
+            localFile = JSON.parse(event.target.result);
+            var localCharacterList = localFile.characters;
+                    
+            //recorrer todos los botones y cambiar el estado de los personajes
+            var buttons = document.getElementsByTagName("div");
+            for (var i = 0; i < buttons.length; i++)
+            {
+                var button = buttons[i];
+                var characterName = button.innerHTML;
+                var colorIndex = (Array.from(button.parentElement.parentElement.children).indexOf(button.parentElement)-1);
+                var characterElement = parseInt(colorIndex/rarityList.length);
+                var character = characterList.find(c => c.name === characterName && c.element === elementList[characterElement] && c.unlocked);
+
+                if(character)
+                {
+                    changeState(button);
+                }
+
+                character = localCharacterList.find(c => c.name === characterName && c.unlocked);
+                if(character)
+                {
+                    changeState(button);
+                }
+
+            }
+        }
+        reader.readAsText(file);
+
+    }
+    input.click();
+
+}
+
+export function saveJSON()
+{
+    var unlockedCharacters = characterList.filter(character => character.unlocked);
+
+    if(unlockedCharacters.length == 0)
+    {
+        return;
+    }
+
+    //Save JSON file
+    console.log("Saving JSON file");
+    var json = JSON.stringify(JSONfile);
+    var blob = new Blob([json], {type: "application/json"});
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement("a");
+    a.href = url;
+    a.download = "genshin.json";
+    a.click();
+    URL.revokeObjectURL(url);
 }
