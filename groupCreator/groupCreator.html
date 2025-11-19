@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Creator</title>
+    <link rel="stylesheet" href="groupCreatorStyle.css">
+    <script src="groupCreator.js"></script>
+</head>
+
+
+
+<body>
+
+    <input type="text" id="nameInput" placeholder="Escribe un nombre" onkeydown="if(event.key==='Enter'){addRow(this.value);}">
+
+    <table id="nameTable" border="1" style="border-collapse: collapse; margin-top: 20px; width: 100%;">
+        <thead>
+            <tr>
+                <th style="width: 10%;">Nombre</th>
+                <th style="width: 20%;">Configuración</th>
+                <th style="width: 40%;">Lista negra</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        </tbody>
+    </table>
+
+    <div style="margin: 20px;">
+        <label for="groupSizeInput">Número de grupos:</label>
+        <input type="number" id="groupSizeInput" value="2" min="2" max="9" onkeydown="return false;">
+        <button onclick="createGroup(document.getElementById('groupSizeInput').value)">Crear grupos</button>
+    </div>
+
+        <div id="output2" style="margin: 20px;">
+        <ul id="nameList2"></ul>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Juegos Jugados</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="module" src="script.js"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=0.5, user-scalable=no, minimal-ui">
+    </head>
+
+    
+    <body onload="init()">
+        <h1>Reviews en menos de 280 caracteres</h1>
+        <button id="sortByDefault" onclick="sortByDefault()">Por defecto </button>
+        <button id="sortAlphabetically" onclick="sortAlphabetically()">A-Z</button>
+        <button id="sortByYear" onclick="sortByYear()">Por año</button>
+        <div id="container">
+        </div>
+    </body>
+
+</html>

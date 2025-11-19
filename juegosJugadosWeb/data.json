@@ -1,0 +1,385 @@
+[
+    {
+        "id": 1,
+        "nombre": "Shovel Knight: Shovel of Hope",
+        "desarrollador": "Yacht Club Games",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6pup.webp",
+        "review": "Aunque cuenta con una historia y una jugabilidad muy simple, los complicados niveles acabados en intensas bossfights nunca dejan de sorprenderte con nuevas mecánicas.\n\nPero lo importante es que pegas con una pala.",
+
+        "añoJugado": 2020
+    },
+    {
+        "id": 2,
+        "nombre": "Shovel Knight: Plague of Shadows",
+        "desarrollador": "Yacht Club Games",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsv.webp",
+        "review": "Al contrario que en Shovel of Hope, esta historia alternativa es un tanto más absurda y cuenta con un gameplay más complejo, elaborado y dinámico, lo que lo hace un juego aún más entretenido que la entrega anterior.",
+
+        "añoJugado": 2020
+    },
+    {
+        "id": 3,
+        "nombre": "Shovel Knight: Specter of Torment",
+        "desarrollador": "Yacht Club Games",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsu.webp",
+        "review": "Esta precuela ha narrado el origen de lo sucedido en la entrega principal y ha ofrecido una backstory a varios personajes. Tiene un gameplay muy peculiar, ya que está orientado al plataformeo veloz.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 4,
+        "nombre": "Shovel Knight: King of Cards",
+        "desarrollador": "Yacht Club Games",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2gsw.webp",
+        "review": "Más precuela con más historia.\nJugabilidad distinta al igual que el resto de entregas.\n\nPero a quién le importa todo esto si puedes jugar a las cartas en vez de salvar el mundo.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 5,
+        "nombre": "Celeste",
+        "desarrollador": "Matt Makes Games",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3byy.webp",
+        "review": "Una maravilla del género de plataformas. Un juego muy complicado, donde tú decides hasta dónde eres capaz de llegar, y cuando te lo pasas, sientes la gran satisfacción de haber logrado algo muy grande.\n\nSolo eres tú contra la montaña.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 6,
+        "nombre": "RiME",
+        "desarrollador": "Tequila Works",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h4w.webp",
+        "review": "La opinión que tenía de este juego hasta 5 minutos antes de acabarlo era de ser un simple paseo con saltos y puzles de vez en cuando, y me ha dado mucha pena que haya sido al final cuando éste realmente destaca y desvela su verdadero significado.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 7,
+        "nombre": "Ori and the Blind Forest",
+        "desarrollador": "Moon Studios",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1y41.webp",
+        "review": "Artísticamente muy bonito, aunque a veces se confunde el fondo con el plano de juego. La banda sonora increíble y muy adecuada. Una historia simple con personajes llamativos. Alguna vez un poco injusto, pero muy disfrutable.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 8,
+        "nombre": "The God Paradox",
+        "desarrollador": "Tristan Begin",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/ylghlisj52fletytaqnk.webp",
+        "review": "Me lo compré hace un par de años porque tenía las palabras ritmo y paradoja.\nSe siente incompleto y poco pulido en algunos aspectos, pero destaca por los visuales y la música.\n\nSi quieres sufrir con plataformas y epilepsia, está bien.",
+        "añoJugado": null
+    },
+    {
+        "id": 9,
+        "nombre": "Animal Crossing: Happy Home Designer",
+        "desarrollador": "Nintendo",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wic.webp",
+        "review": "Los Sims pero sin usar \"motherlode\" para conseguir dinero ni preocuparte de que tus aldeanos se mueran en llamas porque no saben cocinar (Decoras casas y ya).\n\nOfertón de 10€ del juego más el amibbo de Canela.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 10,
+        "nombre": "Inside",
+        "desarrollador": "Playdead",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fca.webp",
+        "review": "\nQue cosa más turbia, por dios.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 11,
+        "nombre": "Luigi's Mansion 3",
+        "desarrollador": "Next Level Games",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.webp",
+        "review": "Por fin Nintendo vuelve a poner a Luigi por encima de Mario, haciendo de él un personaje aún más interesante y carismático con esta entrega.\n¿La \"mansión\"? Un mejunje de buenos puzles y un montón de jefes temáticos muy entretenidos.",
+        "añoJugado": null
+    },
+    {
+        "id": 12,
+        "nombre": "Animal Crossing: New Horizons",
+        "desarrollador": "Nintendo",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3wls.webp",
+        "review": "Putamente bonito y adictivo.\n\nPd: La cuarentena te ha salido bien, Nintendo...",
+        "añoJugado": 2020
+    },
+    {
+        "id": 13,
+        "nombre": "Pokémon Platino",
+        "desarrollador": "Game Freak",
+        "año": 2008,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8gvp.webp",
+        "review": "He jugado mucho la cuarta generación, pero nunca este juego, así que decidí jugarlo en Nuzlocke.\nA pesar de añadir y cambiar un contenido mínimo, se ha sentido un juego más completo en comparación con las ediciones anteriores.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 14,
+        "nombre": "Kirby's Return to Dream Land",
+        "desarrollador": "HAL Laboratory",
+        "año": 2011,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54h3.webp",
+        "review": "Tras la decepción que fue Kirby Star Allies, me apetecía bastante jugar a éste, ya que lo recordaba como un buen juego de la saga, y al contrario que su última entrega, las nuevas mecánicas están mucho mejor explotadas.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 15,
+        "nombre": "A Short Hike",
+        "desarrollador": "Adam Gryu",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6e83.webp",
+        "review": "A pesar de no durar más de 3 horas, ha sido una experiencia muy relajante que incita a la exploración de cada rincón de la isla, y la mecánica de vuelo es muy cómoda.\nEl filtro pixelado parece innecesario, pero le da mucho encanto.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 16,
+        "nombre": "Last Day of June",
+        "desarrollador": "Ovosonico",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1q7s.webp",
+        "review": "El pasado no se puede cambiar, y este indie te lo quiere dejar bastante claro con una historia de un matrimonio que no ha tenido un final feliz.\nLos personajes son un poco creepies, pero transmiten todos los sentimientos a la perfección.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 17,
+        "nombre": "Q.U.B.E. 2",
+        "desarrollador": "Toxic Games",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2g7p.webp",
+        "review": "Se parece demasiado a Portal, pero en vez de portales, hay cubos. Las físicas me han parecido un poco toscas, y los puzles repetitivos, aunque los últimos eran bastante buenos. La historia era simple, pero acabó de manera muy abrupta.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 18,
+        "nombre": "The Wolf Among Us",
+        "desarrollador": "Telltale Games",
+        "año": 2013,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcy.webp",
+        "review": "Me ha parecido muy curioso que sus personajes procedan de fábulas y leyendas, además de que se han integrado muy bien a la historia de esta entretenida novela gráfica policial.\nEl arte estilo cómic también le sienta muy bien.",
+        "añoJugado": null
+    },
+    {
+        "id": 19,
+        "nombre": "The Messenger",
+        "desarrollador": "Sabotage Studio",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hr9.webp",
+        "review": "Comedia y referencias en estado puro. Aparte de eso, es un desafiante juego de plataformas hará que dudes de tus habilidades.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 20,
+        "nombre": "Borderlands 2",
+        "desarrollador": "Gearbox Software",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.webp",
+        "review": "· No hemos atendido a la historia.\n· Hemos pasado de las secundarias.\n· Mi estrategia era matar todo a cuchillo.\n· Moríamos mucho.\n· Y lo peor, lo he jugado en cooperativo en horarios no aptos para mantener estable mi salud mental.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 21,
+        "nombre": "Assasin's Creed Syndicate",
+        "desarrollador": "Ubisoft",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xis.webp",
+        "review": "El paraíso de la explotación infantil, los trenes y las patillas.\nHubo un punto en el que empezó a hacerse un poco repetitivo, aunque había misiones con muy buenos puzles.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 22,
+        "nombre": "Destiny 2",
+        "desarrollador": "Bungie Studios",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8q3.webp",
+        "review": "Mira que no me gustan los FPS, pero se nota que este juego está muy pulido en todos sus aspectos.\nVisualmente una pasada y la banda sonora increíble.\nEl chaval con quien lo jugué sólo se ha dedicado a robarme los loots y por eso estoy enfadado con él.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 23,
+        "nombre": "Portal",
+        "desarrollador": "Valve Corporation",
+        "año": 2007,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7d.webp",
+        "review": "Quería jugar este juego desde hace años, y con las ofertas de Steam he aprovechado a pillarme ambos.\nEste primero es bastante cortito y fácil, sin embargo emplea las físicas a la perfección para hacer un entretenido juego de puzles.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 24,
+        "nombre": "Portal 2",
+        "desarrollador": "Valve Corporation",
+        "año": 2011,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.webp",
+        "review": "Infinitamente mejor que el primero. Muy buenos puzles, con nuevas mecánicas que son simples pero le dan mucha más vida al juego, además que cuenta con una buena historia llena de sarcasmo y chistes malos.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 25,
+        "nombre": "Paper Mario: Color Splash",
+        "desarrollador": "Intelligent Systems",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213w.webp",
+        "review": "Es muy criticado porque no tiene el combate ni la variedad de personajes de los primeros juegos, pero ignorando eso, es muy divertido y tiene mucha personalidad. Temáticamente es perfecto y visualmente precioso.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 26,
+        "nombre": "Super Mario Galaxy",
+        "desarrollador": "Nintendo",
+        "año": 2007,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ro.webp",
+        "review": "Que queréis que os diga, una maravilla de juego para su época.\nEs cierto que contiene sus fallos, y Mario en el espacio tiene cero sentido, pero sigue siendo un plataformas increíble.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 27,
+        "nombre": "Cuphead",
+        "desarrollador": "Studio MDHR",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
+        "review": "No tengo mucho que decir, aparte de que cada jefe es un combate único lleno de personalidad, muy bien acompañado con un característico arte y muy buenas canciones.\nMi amigo solo moría mucho y me complicaba el trabajo...",
+        "añoJugado": 2020
+    },
+    {
+        "id": 28,
+        "nombre": "Paper Mario: The Origami King",
+        "desarrollador": "Intelligent Systems",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sai.webp",
+        "review": "Se nota que se esfuerzan para sacar un juego lo más entretenido posible, lleno de humor y personalidad a pesar de sus limitaciones. Los combates contra los jefes son simplemente geniales.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 29,
+        "nombre": "Transistor",
+        "desarrollador": "Supergiant Games",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pi1.webp",
+        "review": "Un juego bastante cortito con una jugabilidad interesante, la cual es muy favorecida por su ambientación futurista. Tiene una historia un tanto abstracta, pero funciona bien para que no pierdas el interés.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 30,
+        "nombre": "Captain Toad: Treasure Tracker",
+        "desarrollador": "Nintendo",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213z.webp",
+        "review": "Está bien, tiene puzles entretenidos y encontrar los secretos es un reto gratificante.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 31,
+        "nombre": "Phoenix Wright: Ace Attorney",
+        "desarrollador": "Capcom",
+        "año": 2013,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5z6o.webp",
+        "review": "Ir descubriendo como van evolucionando los casos y resolverlos es muy gratificante, pero el juego se sentía como una línea recta, y en los últimos casos, al haber demasiados objetos, solo funcionaba la prueba y error.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 32,
+        "nombre": "New Super Mario Bros. 2",
+        "desarrollador": "Nintendo",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tr.webp",
+        "review": "Se siente una copia/pega de la precuela de DS, ya que apenas innova, sin embargo, la premisa de \"consigue todas las monedas\" hace que se le dé un enfoque distinto al juego.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 33,
+        "nombre": "Hob",
+        "desarrollador": "Runic Games",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n2l.webp",
+        "review": "Que el mundo vaya cambiando bastamente con el hecho de girar una palanca impresiona mucho, además de que va acompañado de una historia bastante atractiva que rodea de misterio a todo este mundo.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 34,
+        "nombre": "The Textorcist: The Story of Ray Bibbia",
+        "desarrollador": "Morbidware",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kft.webp",
+        "review": "Un typing game combinado con un bullet hell. Suena absurdo, pero funciona muy bien. Combinado con la música que ofrece y el humor que trae, este juego ha sido de las mayores sorpresas que me he encontrado este año.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 35,
+        "nombre": "Pokémon Mundo Misterioso: Equipo de Rescate DX",
+        "desarrollador": "Spike Chunsoft",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zm0.webp",
+        "review": "No le he hecho antes review porque ver los créditos solo implica haber llegado a la mitad del juego y necesito tener esta review para antes de que acabe el año y oh mierda me estoy quedando sin esp-\n(Nota de editor: en efecto, estas reviews se realizaron en Twitter)",
+        "añoJugado": 2020
+    },
+    {
+        "id": 36,
+        "nombre": "NieR: Automata",
+        "desarrollador": "PlatinumGames",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p39.webp",
+        "review": "Una maravilla de juego, tanto en jugabilidad como en la banda sonora, y con una historia que parece simple pero tiene múltiples capas de complejidad, aunque tras acabarlo me he quedado insatisfecho por tener más preguntas que respuestas.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 37,
+        "nombre": "BattleBlock Theater",
+        "desarrollador": "The Behemoth",
+        "año": 2013,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ify.webp",
+        "review": "Un simpático plataformas lleno de humor con buenos puzles. La historia es absurda, pero esto lo ha hecho The Behemoth, lo que significa que todo lo arreglan añadiendo a su narrador de confianza. Y funciona.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 38,
+        "nombre": "Cave Story+",
+        "desarrollador": "Studio Pixel",
+        "año": 2011,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2380.webp",
+        "review": "Lo denominan \"el indie más conocido de todos los tiempos\" sin embargo, entre mis amigos solo me sonaba a mi y da gracias.\nNo es un mal juego: es un metroidvania cortito con alguna mecánica interesante, pero no se sale de la norma.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 39,
+        "nombre": "Pokémon Escudo",
+        "desarrollador": "Game Freak",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zk1.webp",
+        "review": "Tras haberle dedicado muchas horas al juego base y los DLCs, puedo decir que gracias a los Áreas Silvestres, han conseguido fomentar bastante la exploración, y espero que la saga siga este rumbo. El resto sigue siendo Pokémon.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 40,
+        "nombre": "AER: Memories of Old",
+        "desarrollador": "Forgotten Key",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v8z.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar6yq.webp",
+        "review": "La historia planteada no es más que una escusa para disfrutar de su mecánica principal: volar, algo que parece complicado de manejar, pero está muy simplificado para su disfrute y la exploración por los diferentes archipiélagos.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 41,
+        "nombre": "Beat Saber",
+        "desarrollador": "Beat Games",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20ux.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/arr53.webp",
+        "review": "\nBrutal.",
+        "añoJugado": 2020
+    },
+    {
+        "id": 42,
+        "nombre": "SuperHot VR",
+        "desarrollador": "SUPERHOT Team",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7ybq.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/arje2.webp",
+        "review": "El tiempo se mueve solo cuando tú te mueves. Si la versión de PC ya era una pasada, la de VR lleva al límite este concepto y te permite hacer auténticas virguerías cual Matrix.",
+        "añoJugado": 2020
+    }
+]

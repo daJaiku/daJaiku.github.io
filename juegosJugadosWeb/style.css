@@ -1,0 +1,119 @@
+:root
+{
+    --bg-color: #222;
+    --card-bg: #333;
+    --white-color: #eee;
+}
+
+html
+{
+    background-color: var(--bg-color);
+    color: var(--white-color);
+
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+
+    margin: 1% 0%;
+
+    text-align: center; 
+}
+
+button
+{
+    margin: 0px 5px 20px 5px;
+    padding: 10px 15px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 8px;
+    border: none;
+
+    background-color: var(--card-bg);
+    color: var(--white-color);
+
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #555;
+}
+
+#card
+{
+    background-color: var(--card-bg);
+    border: 3px solid var(--white-color);
+    border-radius: 15px;
+
+    margin: 10px auto;
+    padding: 20px; 
+
+    width: 700px;
+    height: 200px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    z-index: 1;
+
+    user-select: none;
+}
+
+
+#backgroundImage
+{
+    background-size: cover;
+    border-radius: 12px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0.2;
+
+    user-select: none;
+}
+
+img
+{
+    border-radius: 5%;
+    width: auto;
+
+    height: 100%;
+
+    margin-right: 4%;
+
+    z-index: 1;
+}
+
+#textContainer
+{
+    width: 100%;
+    z-index: 1;
+}
+
+#title
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+span
+{
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+#review
+{
+    padding-top: 3.5%;
+
+    white-space: pre-wrap;
+}
