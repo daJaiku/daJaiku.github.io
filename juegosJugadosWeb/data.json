@@ -71,7 +71,7 @@
         "año": 2017,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/ylghlisj52fletytaqnk.webp",
         "review": "Me lo compré hace un par de años porque tenía las palabras ritmo y paradoja.\nSe siente incompleto y poco pulido en algunos aspectos, pero destaca por los visuales y la música.\n\nSi quieres sufrir con plataformas y epilepsia, está bien.",
-        "añoJugado": null
+        "añoJugado": 2020
     },
     {
         "id": 9,
@@ -98,7 +98,7 @@
         "año": 2019,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co22a9.webp",
         "review": "Por fin Nintendo vuelve a poner a Luigi por encima de Mario, haciendo de él un personaje aún más interesante y carismático con esta entrega.\n¿La \"mansión\"? Un mejunje de buenos puzles y un montón de jefes temáticos muy entretenidos.",
-        "añoJugado": null
+        "añoJugado": 2020
     },
     {
         "id": 12,
@@ -161,7 +161,7 @@
         "año": 2013,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rcy.webp",
         "review": "Me ha parecido muy curioso que sus personajes procedan de fábulas y leyendas, además de que se han integrado muy bien a la historia de esta entretenida novela gráfica policial.\nEl arte estilo cómic también le sienta muy bien.",
-        "añoJugado": null
+        "añoJugado": 2020
     },
     {
         "id": 19,
@@ -169,6 +169,7 @@
         "desarrollador": "Sabotage Studio",
         "año": 2018,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hr9.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar8h2.webp",
         "review": "Comedia y referencias en estado puro. Aparte de eso, es un desafiante juego de plataformas hará que dudes de tus habilidades.",
         "añoJugado": 2020
     },
@@ -178,6 +179,7 @@
         "desarrollador": "Gearbox Software",
         "año": 2012,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9ba3.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar3m0u.webp",
         "review": "· No hemos atendido a la historia.\n· Hemos pasado de las secundarias.\n· Mi estrategia era matar todo a cuchillo.\n· Moríamos mucho.\n· Y lo peor, lo he jugado en cooperativo en horarios no aptos para mantener estable mi salud mental.",
         "añoJugado": 2020
     },
@@ -187,6 +189,7 @@
         "desarrollador": "Ubisoft",
         "año": 2015,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xis.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/czd3yazmbatmqeor2osf.webp",
         "review": "El paraíso de la explotación infantil, los trenes y las patillas.\nHubo un punto en el que empezó a hacerse un poco repetitivo, aunque había misiones con muy buenos puzles.",
         "añoJugado": 2020
     },
@@ -196,6 +199,7 @@
         "desarrollador": "Bungie Studios",
         "año": 2017,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa8q3.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar67u.webp",
         "review": "Mira que no me gustan los FPS, pero se nota que este juego está muy pulido en todos sus aspectos.\nVisualmente una pasada y la banda sonora increíble.\nEl chaval con quien lo jugué sólo se ha dedicado a robarme los loots y por eso estoy enfadado con él.",
         "añoJugado": 2020
     },
@@ -205,6 +209,7 @@
         "desarrollador": "Valve Corporation",
         "año": 2007,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x7d.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar21g0.webp",
         "review": "Quería jugar este juego desde hace años, y con las ofertas de Steam he aprovechado a pillarme ambos.\nEste primero es bastante cortito y fácil, sin embargo emplea las físicas a la perfección para hacer un entretenido juego de puzles.",
         "añoJugado": 2020
     },
@@ -214,6 +219,7 @@
         "desarrollador": "Valve Corporation",
         "año": 2011,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rs4.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/arsj0.webp",
         "review": "Infinitamente mejor que el primero. Muy buenos puzles, con nuevas mecánicas que son simples pero le dan mucha más vida al juego, además que cuenta con una buena historia llena de sarcasmo y chistes malos.",
         "añoJugado": 2020
     },
@@ -223,6 +229,7 @@
         "desarrollador": "Intelligent Systems",
         "año": 2016,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213w.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar1ifd.webp",
         "review": "Es muy criticado porque no tiene el combate ni la variedad de personajes de los primeros juegos, pero ignorando eso, es muy divertido y tiene mucha personalidad. Temáticamente es perfecto y visualmente precioso.",
         "añoJugado": 2020
     },
@@ -232,6 +239,7 @@
         "desarrollador": "Nintendo",
         "año": 2007,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21ro.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar1gl6.webp",
         "review": "Que queréis que os diga, una maravilla de juego para su época.\nEs cierto que contiene sus fallos, y Mario en el espacio tiene cero sentido, pero sigue siendo un plataformas increíble.",
         "añoJugado": 2020
     },
@@ -241,6 +249,7 @@
         "desarrollador": "Studio MDHR",
         "año": 2017,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co65ip.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/scmikb.webp",
         "review": "No tengo mucho que decir, aparte de que cada jefe es un combate único lleno de personalidad, muy bien acompañado con un característico arte y muy buenas canciones.\nMi amigo solo moría mucho y me complicaba el trabajo...",
         "añoJugado": 2020
     },
@@ -250,6 +259,7 @@
         "desarrollador": "Intelligent Systems",
         "año": 2020,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2sai.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar70r.webp",
         "review": "Se nota que se esfuerzan para sacar un juego lo más entretenido posible, lleno de humor y personalidad a pesar de sus limitaciones. Los combates contra los jefes son simplemente geniales.",
         "añoJugado": 2020
     },
@@ -259,6 +269,7 @@
         "desarrollador": "Supergiant Games",
         "año": 2014,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1pi1.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/i8h0i5gorzr3vt04ccpn.webp",
         "review": "Un juego bastante cortito con una jugabilidad interesante, la cual es muy favorecida por su ambientación futurista. Tiene una historia un tanto abstracta, pero funciona bien para que no pierdas el interés.",
         "añoJugado": 2020
     },
@@ -268,6 +279,7 @@
         "desarrollador": "Nintendo",
         "año": 2014,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co213z.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar2vj7.webp",
         "review": "Está bien, tiene puzles entretenidos y encontrar los secretos es un reto gratificante.",
         "añoJugado": 2020
     },
@@ -277,6 +289,7 @@
         "desarrollador": "Capcom",
         "año": 2013,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5z6o.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/sckf25.webp",
         "review": "Ir descubriendo como van evolucionando los casos y resolverlos es muy gratificante, pero el juego se sentía como una línea recta, y en los últimos casos, al haber demasiados objetos, solo funcionaba la prueba y error.",
         "añoJugado": 2020
     },
@@ -286,6 +299,7 @@
         "desarrollador": "Nintendo",
         "año": 2012,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tr.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/eqhemitbde0gm21snajx.webp",
         "review": "Se siente una copia/pega de la precuela de DS, ya que apenas innova, sin embargo, la premisa de \"consigue todas las monedas\" hace que se le dé un enfoque distinto al juego.",
         "añoJugado": 2020
     },
@@ -295,6 +309,7 @@
         "desarrollador": "Runic Games",
         "año": 2017,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1n2l.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ardpn.webp",
         "review": "Que el mundo vaya cambiando bastamente con el hecho de girar una palanca impresiona mucho, además de que va acompañado de una historia bastante atractiva que rodea de misterio a todo este mundo.",
         "añoJugado": 2020
     },
@@ -304,6 +319,7 @@
         "desarrollador": "Morbidware",
         "año": 2019,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kft.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/arowl.webp",
         "review": "Un typing game combinado con un bullet hell. Suena absurdo, pero funciona muy bien. Combinado con la música que ofrece y el humor que trae, este juego ha sido de las mayores sorpresas que me he encontrado este año.",
         "añoJugado": 2020
     },
@@ -313,6 +329,7 @@
         "desarrollador": "Spike Chunsoft",
         "año": 2020,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zm0.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar6hr.webp",
         "review": "No le he hecho antes review porque ver los créditos solo implica haber llegado a la mitad del juego y necesito tener esta review para antes de que acabe el año y oh mierda me estoy quedando sin esp-\n(Nota de editor: en efecto, estas reviews se realizaron en Twitter)",
         "añoJugado": 2020
     },
@@ -322,6 +339,7 @@
         "desarrollador": "PlatinumGames",
         "año": 2017,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5p39.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/mg2psdb1i6gosejsnugx.webp",
         "review": "Una maravilla de juego, tanto en jugabilidad como en la banda sonora, y con una historia que parece simple pero tiene múltiples capas de complejidad, aunque tras acabarlo me he quedado insatisfecho por tener más preguntas que respuestas.",
         "añoJugado": 2020
     },
@@ -331,6 +349,7 @@
         "desarrollador": "The Behemoth",
         "año": 2013,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ify.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar3u47.webp",
         "review": "Un simpático plataformas lleno de humor con buenos puzles. La historia es absurda, pero esto lo ha hecho The Behemoth, lo que significa que todo lo arreglan añadiendo a su narrador de confianza. Y funciona.",
         "añoJugado": 2020
     },
@@ -340,6 +359,7 @@
         "desarrollador": "Studio Pixel",
         "año": 2011,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2380.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar9p3.webp",
         "review": "Lo denominan \"el indie más conocido de todos los tiempos\" sin embargo, entre mis amigos solo me sonaba a mi y da gracias.\nNo es un mal juego: es un metroidvania cortito con alguna mecánica interesante, pero no se sale de la norma.",
         "añoJugado": 2020
     },
@@ -349,6 +369,7 @@
         "desarrollador": "Game Freak",
         "año": 2019,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zk1.webp",
+        "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/ar5wf.webp",
         "review": "Tras haberle dedicado muchas horas al juego base y los DLCs, puedo decir que gracias a los Áreas Silvestres, han conseguido fomentar bastante la exploración, y espero que la saga siga este rumbo. El resto sigue siendo Pokémon.",
         "añoJugado": 2020
     },

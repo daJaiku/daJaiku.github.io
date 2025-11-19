@@ -1,6 +1,7 @@
 import data from "./data.json" with { type: "json" };
 
-var originalData = data;
+var sortedBy = "default";
+var defaultYear = 0;
 
 export function init()
 {
@@ -8,6 +9,54 @@ export function init()
 
     for (let i=0; i < data.length; i++)
     {
+        switch (sortedBy)
+        {
+            case "year":
+            {
+                if (data[i].año != defaultYear)
+                {
+                    //añadir separador de año
+                    const yearSeparator = document.createElement("div");
+                    yearSeparator.id = "yearSeparator";
+                    yearSeparator.textContent = data[i].año;
+                    container.appendChild(yearSeparator);
+
+                    defaultYear = data[i].año;
+                }
+                break;
+            }
+            case "alphabetical":
+            {
+                if (data[i].nombre.charAt(0).toUpperCase() != defaultYear)
+                {
+                    //añadir separador de año
+                    const yearSeparator = document.createElement("div");
+                    yearSeparator.id = "yearSeparator";
+                    yearSeparator.textContent = data[i].nombre.charAt(0).toUpperCase();
+                    container.appendChild(yearSeparator);
+
+                    defaultYear = data[i].nombre.charAt(0).toUpperCase();
+                }
+                break;
+            }
+            default:
+            {
+                if (data[i].añoJugado != defaultYear)
+                {
+                    //añadir separador de año
+                    const yearSeparator = document.createElement("div");
+                    yearSeparator.id = "yearSeparator";
+                    yearSeparator.textContent = data[i].añoJugado;
+                    container.appendChild(yearSeparator);
+
+                    defaultYear = data[i].añoJugado;
+                }
+                break;
+            }
+        }
+
+
+
         //tarjeta de cada juego (identificado con el año en el que se ha jugado)
         const card = document.createElement("div");
         card.id = "card";
@@ -67,19 +116,26 @@ export function init()
         card.appendChild(textContainer);
 
         container.appendChild(card);
-
     }
 }
 
 export function sortByDefault()
 {
+    sortedBy = "default";
+    defaultYear = 0;
+
     data.sort((a, b) => a.id - b.id);
     clearContainer();
     init();
+
+    defaultSort = false;
 }
 
 export function sortByYear()
 {
+    sortedBy = "year";
+    defaultYear = 0;
+
     data.sort((a, b) => a.año - b.año);
     clearContainer();
     init();
@@ -87,6 +143,9 @@ export function sortByYear()
 
 export function sortAlphabetically()
 {
+    sortedBy = "alphabetical";
+    defaultYear = 0;
+
     data.sort((a, b) => a.nombre.localeCompare(b.nombre));
     clearContainer();
     init();
