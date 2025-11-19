@@ -1,14 +1,14 @@
 import data from "./data.json" with { type: "json" };
 
-var sortedBy = "default";
-var defaultYear = 0;
+let sortedBy = "default";
+let defaultYear = 0;
 
-var pin = 0;
-var añoPin = 0;
+let pin = 0;
+let añoPin = 0;
 
 export function init()
 {
-    var añoPin = 0;
+    añoPin = 0;
     const container = document.getElementById("container");
 
     for (let i=0; i < data.length; i++)
@@ -139,8 +139,6 @@ export function sortByDefault()
     data.sort((a, b) => a.id - b.id);
     clearContainer();
     init();
-
-    defaultSort = false;
 }
 
 export function sortByYear()

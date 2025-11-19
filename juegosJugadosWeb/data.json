@@ -920,5 +920,285 @@
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar8eu.webp",
         "review": "Juego bonito, relajante, tranquilo, apaciguado, sexy, y otros tantos adjetivos que soy incapaz de añadir debido a mi baja capacidad lingüística.\nPero todo eso se arregla con abrazos.",
         "añoJugado": 2021
+    },
+    {
+        "id": 93,
+        "nombre": "Ring of Pain",
+        "desarrollador": "Twice Different",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co29rj.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard59.webp",
+        "review": "No sé por qué, pero su estética macabra me llamaba la atención.\nUn roguelite de cartas que parece muy simple, pero tiene una gran profundidad estratégica.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 94,
+        "nombre": "Olija",
+        "desarrollador": "Skeleton Crew Studio",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ct9.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7er.webp",
+        "review": "Un juego muy chiquito pero con buenas dosis de acción veloz y con una historia que acompaña bien.\nLas pantallas de carga son un poco largas para lo que es el juego, pero se aguantan.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 95,
+        "nombre": "Pokémon Diamante Brillante",
+        "desarrollador": "ILCA",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b9t.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9jf.webp",
+        "review": "Lo único que tiene de \"bueno\" esta entrega son los combates difíciles y el subsuelo, junto con las mejoras de calidad de vida.\nSin embargo, sigo pensando que el Pokémon Platino sigue siendo la mejor opción para jugar en Sinnoh.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 96,
+        "nombre": "Cats Organized Neatly",
+        "desarrollador": "DU&I",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2ij8.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar112x.webp",
+        "review": "\nEl gato largo nunca quiere encajar :(",
+        "añoJugado": 2022
+    },
+    {
+        "id": 97,
+        "nombre": "Leyendas Pokémon: Arceus",
+        "desarrollador": "Game Freak",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3d03.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9r2.webp",
+        "review": "¿Se ve feo?\nBastante.\n¿Lo he disfrutado?\nComo un cabrón.\nPor fin dan el paso a la dirección correcta, pero por favor, aprended a programar, que tenéis a una compañía multimillonaria por detrás...",
+        "añoJugado": 2022
+    },
+    {
+        "id": 98,
+        "nombre": "Crash Bandicoot",
+        "desarrollador": "Vicarious Visions",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3ywi.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9tf.webp",
+        "review": "Pues me he empezado la cuadrilogía de Crash Bandicoot, y no empieza bien.\nMe ha entretenido, pero tiene demasiados fallos de diseño y jugabilidad, incluso siendo una remasterización.\nA ver qué pasa con el resto.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 99,
+        "nombre": "Pokémon Conquest",
+        "desarrollador": "Koei Tecmo Games",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2jxm.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/mcryjat8tgjzdkrezbjk.webp",
+        "review": "Pues como juego de estrategia está gracioso, ya que es bastante sencillo y no te tienes que esforzar mucho. Pero la historia no me ha podido importar menos, porque no tiene.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 100,
+        "nombre": "Pokémon Ópalo",
+        "desarrollador": "Eric Lostie",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6i8y.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scg8di.webp",
+        "review": "A pesar de las limitaciones técnicas y tener un inicio poco interesante, a la larga ha sido capaz de construir un universo con mucho carisma, aunque hubo personajes que requerían más tiempo en pantalla y no han causado tanto impacto.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 101,
+        "nombre": "Kirby y la Tierra Olvidada",
+        "desarrollador": "HAL Laboratory",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3vlw.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cbl.webp",
+        "review": "Hace mucho tiempo que un juego no me hace sonreír tanto.\nNo tendrá historia y noté la ausencia de algunas transformaciones, pero eso no ha impedido que sea un plataformas muy desenfadado y disfrutable.\nViva la bola rosada.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 102,
+        "nombre": "NieR Re[in]carnation",
+        "desarrollador": "Applibot",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7bm4.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7gq.webp",
+        "review": "A ver Yoko Taro, tú y yo tenemos que hablar.\n¡¿CÓMO SE TE OCURRE DECIR QUE ESTE JUEGO ES CANON Y QUEDARTE TAN TRANQUILO?!\nQUE HAS HECHO CANON HASTA UN MUSICAL. QUE COÑO.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 103,
+        "nombre": "Turnip Boy Commits Tax Evasion",
+        "desarrollador": "Graffiti Games",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kc1.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9rd.webp",
+        "review": "Ah yes, un nabo que comete evasión de impuest- espera, ¿por qué esa cebolla tiene un tema de anime?",
+        "añoJugado": 2022
+    },
+    {
+        "id": 104,
+        "nombre": "The one who pulls out the sword will be crowned king",
+        "desarrollador": "Majorariatto",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4iad.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3j50.webp",
+        "review": "Me he quedado sin muñeca, pero me he sacado el logro y lo puedo desinstalar orgullosamente.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 105,
+        "nombre": "OMORI",
+        "desarrollador": "OMOCAT",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xlp.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arive.webp",
+        "review": "OMORI es un juego... raro.\nSin embargo, trata muy bien del tema del que quiere hablar.\nNo es un juego que le vaya a gustar a la mayoría, pero sí que es una experiencia que más gente debería probar.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 106,
+        "nombre": "Cat Quest",
+        "desarrollador": "The Gentlebros",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qlq.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arab6.webp",
+        "review": "\nEl mayor poder de todos... son los puños de gato.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 107,
+        "nombre": "Poinpy",
+        "desarrollador": "Ojiro Fumoto",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5yhk.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/schd1j.webp",
+        "review": "\nUn juego muy colorido y dinámico hasta que destruyes el tejido de la realidad.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 108,
+        "nombre": "Idle Slayer",
+        "desarrollador": "Pablo Leban",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xso.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1el5.webp",
+        "review": "En efecto, es un idle más, pero es un idle donde tu interacción es más relevante que tu no-interacción, y que un juego quiera que juegues, es bien.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 109,
+        "nombre": "Fall Guys",
+        "desarrollador": "Mediatonic",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa7cs.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3zt7.webp",
+        "review": "\nHumor amarillo: el videojuego.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 110,
+        "nombre": "Baba is You",
+        "desarrollador": "Hempuli",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hqt.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9ra.webp",
+        "review": "\"La realidad se rige por unas reglas lógicas hasta el momento en el que puedas cambiarlas.\"\n-Me lo acabo de inventar, 2022.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 111,
+        "nombre": "Genshin Impact",
+        "desarrollador": "Hoyoverse",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9dy.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4lmj.webp",
+        "review": "\nHa sido el juego que más tiempo me ha consumido, y pido disculpas por ello...",
+        "añoJugado": 2022
+    },
+    {
+        "id": 112,
+        "nombre": "Freeways",
+        "desarrollador": "Captain Games",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co26xo.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3sbj.webp",
+        "review": "\nIngeniero de caminos: el videojuego.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 113,
+        "nombre": "Trombone Champ",
+        "desarrollador": "Holy Wow Studios",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co44zl.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arsfu.webp",
+        "review": "\nTrombones, mandriles y perritos calientes.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 114,
+        "nombre": "Xenoblade Chronicles: Definitive Edition",
+        "desarrollador": "Monolith Soft",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27kt.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar70q.webp",
+        "review": "Juego animú con historia animú, aunque el universo planteado mola. No me lo he pasado porque JRPG pero el juego no me lo quiere poner fácil con su combate mediocre.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 115,
+        "nombre": "Bayonetta 3",
+        "desarrollador": "PlatinumGames",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4z2i.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1lrx.webp",
+        "review": "Me esperaba mucho de la historia de este juego y me decepcionó bastante, y eso que por el momento tenían un multiverso bien construido. Al menos la jugabilidad es de lo más satisfactorio que hay.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 116,
+        "nombre": "A Little to the Left",
+        "desarrollador": "Max Inferno",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co887d.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ycp.webp",
+        "review": "Puzles satisfactorios perfectos para el TOC. Lo único que tiene es que me pareció que tenía pocos puzles, y los diarios no añaden nada nuevo.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 117,
+        "nombre": "Pokémon Escarlata",
+        "desarrollador": "Game Freak",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5sfi.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scg8ud.webp",
+        "review": "¿Cuántas veces te lo tengo que repetir? ¡APRENDE A PROGRAMAR! Por lo menos el juego es divertido y explorarlo es satisfactorio.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 118,
+        "nombre": "Potion Craft",
+        "desarrollador": "Nice Play Games",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2pow.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/aruut.webp",
+        "review": "Lo estuve jugando en la beta y me parecía la cosa más sencilla pero que engancha del mundo, ahora que ha salido la versión completa, sigue siendo lo mismo pero con más contenido, cosa que es bien. Artísticamente es genial.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 119,
+        "nombre": "Pokémon Rubí",
+        "desarrollador": "Game Freak",
+        "año": 2002,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1zhq.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar21yg.webp",
+        "review": "Jugado contra un nuevo rival, esta modificación randomizada del juego nos ha traído muchos sustos y disgustos, pero los piques sobre qué Pokémon nos tocaba en cada ruta y en cada entrenador eran lo más divertido de toda la partida.",
+        "añoJugado": 2022
+    },
+    {
+        "id": 120,
+        "nombre": "Vampire Survivors",
+        "desarrollador": "Poncle",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4bzv.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cnh.webp",
+        "review": "Que no os engañe su estética fea y pixelada, porque intentar sobrevivir a las oleadas de infinitos monstruos es altamente adictivo.",
+        "añoJugado": 2022
     }
 ]
