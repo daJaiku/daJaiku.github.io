@@ -420,5 +420,505 @@
         "imagenFondo":"https://images.igdb.com/igdb/image/upload/t_1080p/arje2.webp",
         "review": "El tiempo se mueve solo cuando tú te mueves. Si la versión de PC ya era una pasada, la de VR lleva al límite este concepto y te permite hacer auténticas virguerías cual Matrix.",
         "añoJugado": 2020
+    },
+    {
+        "id": 43,
+        "nombre": "Super Mario Galaxy 2",
+        "desarrollador": "Nintendo",
+        "año": 2010,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co21tl.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4rw.webp",
+        "review": "A pesar de ser un juegazo, incluso mejor que su primera parte, siento que no me ha causado tanto impacto, y eso que arregla minúsculos detalles que hacen que la experiencia sea más llevadera.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 44,
+        "nombre": "Hades",
+        "desarrollador": "Supergiant Games",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39vc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m4s.webp",
+        "review": "Su jugabilidad es espectacular, el arte una maravilla y la banda sonora es increíble.\nAdemás, han llegado tan lejos con la interacción de los personajes que todos ellos cuentan con interesantes sub-tramas que querrás seguir.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 45,
+        "nombre": "The Room VR: A Dark Matter",
+        "desarrollador": "Fireproof Games",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co208c.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arlib.webp",
+        "review": "Conozco esta saga de hace tiempo y me encantan estos escaperoom de misterio, y haber jugado esta entrega en VR ha merecido mucho la pena, aunque sea un juego cortito.\nAñaden demasiadas nuevas mecánicas, pero es manejable.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 46,
+        "nombre": "Ori and the Will of the Wisps",
+        "desarrollador": "Moon Studios",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2e1l.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar89s.webp",
+        "review": "Aunque la historia se sienta un copia/pega del primer juego y haya un exceso de habilidades con usos puntuales, han conseguido pulir al máximo el plataformeo y el combate para hacerlo un metroidvania muy disfrutable.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 47,
+        "nombre": "Hyrule Warriors: Age of Calamity",
+        "desarrollador": "Omega Force",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3p4a.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1dic.webp",
+        "review": "Aunque lo hayan vendido como la precuela de Breath of the Wild, no lo es, porque a tope con los viajes temporales. Sin embargo, eso no quita que la historia sea interesante y que la jugabilidad sea innovadora para lo que es este género.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 48,
+        "nombre": "Half-Life",
+        "desarrollador": "Valve",
+        "año": 1998,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coag8n.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arpo4.webp",
+        "review": "Sé que en su momento ha sido una joyita, pero a mi me ha parecido injugable e injusto en tantos aspectos, que he tenido que utilizar trucos para al menos terminar la historia.\nSi, Sasuke, soy débil.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 49,
+        "nombre": "Stardew Valley",
+        "desarrollador": "ConcernedApe",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa93h.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar5l8.webp",
+        "review": "Normalmente me suelen cansar rápido los juegos de gestión porque siento que o no tengo objetivos o solo se basan en esperar, y este no ha sido una excepción.\nSin embargo, puedo decir que este es sin duda el mejor juego de granja de todos.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 50,
+        "nombre": "Pokémon Amarillo",
+        "desarrollador": "Game Freak",
+        "año": 1998,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co54kd.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1kry.webp",
+        "review": "Correcto, nunca jugué Kanto, y correcto, soy tan imbécil que en vez de jugar los remakes, los cuales están más pulidos, jugué al original con todos sus defectos, bugs y mal diseño... en Nuzlocke.\nBendito fastforward.\n(Nota de editor: el juego lo tengo comprado en la 3DS aka soy legal.)",
+        "añoJugado": 2021
+    },
+    {
+        "id": 51,
+        "nombre": "¡Shin Chan: Flipa en colores!",
+        "desarrollador": "Banpresto Co., Ltd.",
+        "año": 2007,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co48u3.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scdswd.webp",
+        "review": "¿Por qué tenía recuerdos de que era un buen juego?\n¿Dónde están esos puzles que tanto me costaron?\n¡¿Y por qué llama \"rotus\" a las ceras de colores?!",
+        "añoJugado": 2021
+    },
+    {
+        "id": 52,
+        "nombre": "Blasphemous",
+        "desarrollador": "The Game Kitchen",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9yoj.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar6zd.webp",
+        "review": "No se me ocurre qué decir, excepto que le he cogido trauma a los precipicios tras las pantallas de carga y a los hombres partidos a la mitad... ew.\nObviando eso, ofrece un reto justo y entretenido.\nSpoiler: Esqueleto gracioso.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 53,
+        "nombre": "Oxenfree",
+        "desarrollador": "Night School Studio",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hlq.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar89x.webp",
+        "review": "La naturalidad de las conversaciones y cómo están dobladas son el punto más fuerte de este juego y hace que quieras saber más sobre este universo, aunque la historia y la jugabilidad no son nada del otro mundo.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 54,
+        "nombre": "Electronic Super Joy",
+        "desarrollador": "Michael Todd Games",
+        "año": 2013,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1v0l.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard2x.webp",
+        "review": "Todo lo que no hay que hacer en un plataformas está en este juego.\nY eso es caca.\nAunque la estética y la música son bien.\nSpoiler: cada vez que mueres una persona gime. Y no, no es coña.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 55,
+        "nombre": "Super Meat Boy",
+        "desarrollador": "Team Meat",
+        "año": 2010,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co276m.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/aramq.webp",
+        "review": "\nFeto ingeniero se pone celoso de mi novia de carne y la secuestra: sale mal.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 56,
+        "nombre": "Pikuniku",
+        "desarrollador": "Sectordub",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9g1.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4bcy.webp",
+        "review": "\nNani?!",
+        "añoJugado": 2021
+    },
+    {
+        "id": 57,
+        "nombre": "Unravel Two",
+        "desarrollador": "Coldwood Interactive",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95jr.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/kadeu4i9c7djybcpjnws.webp",
+        "review": "Me gusta muchos los juegos de puzles multijugador, y encontrar gente con la cual es casi imposible cooperar como con alguno de mis amigos, lo hace bastante más entretenido.\nLa movilidad y las físicas de este juego son muy disfrutables.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 58,
+        "nombre": "The Binding of Isaac: Repentance",
+        "desarrollador": "Edmund McMillen",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5dfa.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar12vn.webp",
+        "review": "Mira, yo de verdad, no puedo. No sé qué coño tiene este juego. Me consume. Me destroza. Y lo quiero seguir jugando. Lo odio con toda mi alma.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 59,
+        "nombre": "Donut County",
+        "desarrollador": "Ben Esposito",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qv8.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7xn.webp",
+        "review": "\nLos mapaches son la hostia.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 60,
+        "nombre": "The Touryst",
+        "desarrollador": "Shin'en Multimedia",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eix.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar8hk.webp",
+        "review": "Pues bueno, ahí está. Es un juego de puzles y tiene gráficos bonitos.\nEl final es un poco wtf.\nY me cago en los desarrolladores por no poner controles con mando en pc cuando el juego ha salido en consola.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 61,
+        "nombre": "Night in the Woods",
+        "desarrollador": "Infinite Fall",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4ovg.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3nv3.webp",
+        "review": "¿Cómo es posible que un juego me haga sentir tan mal y aún así quiera seguir jugando? Ah, espera, Isaac. Pero esta vez para bien.\nBueno no, que hay mucha depresión.\nAl igual la parte de fantasía sobraba un poco, pero ha estado bien.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 62,
+        "nombre": "Dragon Quest XI: Echoes of an Elusive Age",
+        "desarrollador": "Square Enix",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1x9d.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7xw.webp",
+        "review": "No sabía las ganas que tenía de jugar a un RPG clásico, además de disfrutar de una buena historia y personajes.\nLa única queja que puedo tener es el abuso de la banda sonora, el mismo tema para todo el juego.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 63,
+        "nombre": "Katana Zero",
+        "desarrollador": "Askiisoft",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1isp.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4tu.webp",
+        "review": "Todos los juegos donde controlar el tiempo sea una mecánica son bien. Este es uno de ellos.\nAdemás tiene historia coherente y tiene buena jugabilidad.\nEl Xbox GamePass me está rompiendo por dentro.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 64,
+        "nombre": "A Way Out",
+        "desarrollador": "Hazelight Studios",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1vca.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar5lz.webp",
+        "review": "Pensé que sería un juego de puzles bastante sencillito, pero ha demostrado tener una historia bastante más interesante a cómo nos la imaginábamos.\nMi mejor amigo es un traidor (como siempre) y sólo se merece la muerte (guiño guiño).",
+        "añoJugado": 2021
+    },
+    {
+        "id": 65,
+        "nombre": "House Flipper",
+        "desarrollador": "Frozen District",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4xdy.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arcju.webp",
+        "review": "\nMe gusta destruir paredes porque es altamente adictivo.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 66,
+        "nombre": "Mini Metro",
+        "desarrollador": "Dinosaur Polo Club",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2561.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar87w.webp",
+        "review": "\nTodo muy bonito hasta que te agobias porque cómo vas a organizar las líneas de metro si no sabes ni organizar tu vida.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 67,
+        "nombre": "It Takes Two",
+        "desarrollador": "Hazelight Studios",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2t97.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar85o.webp",
+        "review": "¿Cómo se puede hacer tal maravilla de juego cooperativo mezclando todos los géneros existentes?\nNo lo sé, pero mi amigo de siempre y yo conseguimos recuperar nuestro matrimonio a pesar de nuestra nula capacidad de hacer pizzas.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 68,
+        "nombre": "Monster Hunter Rise",
+        "desarrollador": "Capcom",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3uzk.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9p0.webp",
+        "review": "Matar, mejorar, repetir.\nRepetitivo, pero entretenido si se coge con cariño y se juega con gente.\nUn nuevo personaje seleccionable (otro amigo) me carrilea y yo sonrío y asiento desde una esquina.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 69,
+        "nombre": "Game Builder Garage",
+        "desarrollador": "Nintendo",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2zfc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ara4s.webp",
+        "review": "\nMi motivación en la creación de juegos ha caído en picado en cuando alguien se recreó el Nintendogs y el DOOM.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 70,
+        "nombre": "Death's Door",
+        "desarrollador": "Acid Nerve",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co45xc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/aru75.webp",
+        "review": "El juego del cuervito mola, por el combate, por la estética, y porque eres un cuervito wasón con una espada.\nTeme al cuervito wasón con una espada.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 71,
+        "nombre": "Carto",
+        "desarrollador": "Sunhead Games",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kf2.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7v9.webp",
+        "review": "Chiquijuego de fin de semana.\nEs bonico, es cuqui, es relajante y facilito, perfecto para no romperte la cabeza (spoiler: tienes que romperte la cabeza).",
+        "añoJugado": 2021
+    },
+    {
+        "id": 72,
+        "nombre": "Code Vein",
+        "desarrollador": "Shift",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1r69.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar67x.webp",
+        "review": "La historia tenía mucho potencial... hasta que llegué a la mitad del juego y todo empezó a ir cuesta abajo.\nComo souls no sabría decir si es bueno o no, pero notaba una inconsistencia en la dificultad que estropeaba un poco la experiencia.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 73,
+        "nombre": "Burn me Twice",
+        "desarrollador": "Null Reference Studio",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hw8.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arh59.webp",
+        "review": "Este proyecto realizado por un grupo de chavales de mi universidad, a pesar de ser cortito y un poco tosco, en el apartado artístico me ha sorprendido gratamente.\nDadle una oportunidad a estos cracks, que está gratis.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 74,
+        "nombre": "Superliminal",
+        "desarrollador": "Pillow Castle Games",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1uqz.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/aral3.webp",
+        "review": "\nSi Portal y Antichamber tuviesen un hijo, éste sería el resultado.\nVaya ida de olla.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 75,
+        "nombre": "Loop Hero",
+        "desarrollador": "Four Quarters",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2mfy.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar91o.webp",
+        "review": "El juego del año según dijo Devolver el año pasado, y todo lo que diga Devolver yo me lo creo.\nTan simple que es un vicio, y tan complejo que siempre puedes probar distintas estrategias.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 76,
+        "nombre": "Deltarune: Capítulo 2",
+        "desarrollador": "Toby Fox",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67ze.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scdkh6.webp",
+        "review": "\nPotassium.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 77,
+        "nombre": "Pokémon Cristal",
+        "desarrollador": "Game Freak",
+        "año": 2000,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pim.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1kog.webp",
+        "review": "También en Nuzlocke porque soy un chico listo. Sin embargo, no me esperaba que hubiese un salto de calidad tan alto entre la primera y segunda generación (para lo que era la época, que no es para tirar cohetes la cosa).",
+        "añoJugado": 2021
+    },
+    {
+        "id": 78,
+        "nombre": "Metroid Dread",
+        "desarrollador": "MercurySteam",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co39zx.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3rhm.webp",
+        "review": "Primer Metroid que juego, porque alguno habría que jugar si es de mis géneros favoritos.\nMe he perdido. Y mucho. Pero todo se arregla con la amplia movilidad que posee Samus para hacer entretenida la exploración.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 79,
+        "nombre": "Pony Island",
+        "desarrollador": "Daniel Mullins",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hqv.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1qqz.webp",
+        "review": "\nJaja es meta.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 80,
+        "nombre": "Carrion",
+        "desarrollador": "Phobia Game Studio",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2eau.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar76w.webp",
+        "review": "\nJaja es un cacho carne desagradable come-humanos.\nYo lo añadiría en la playlist de videos de cosas satisfactorias.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 81,
+        "nombre": "Flynn: Son of Crimson",
+        "desarrollador": "Studio Thunderhorse",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3tyz.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arlpl.webp",
+        "review": "Jaja es Kirishima montando en un perro grande.\nPero oye, la jugabilidad es mejor de lo que me esperaba y el pixelart es muy chulo.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 82,
+        "nombre": "Limbo",
+        "desarrollador": "Playdead",
+        "año": 2010,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1qrs.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar85v.webp",
+        "review": "\nAh si, lo entiendo todo (no he entendido nada).",
+        "añoJugado": 2021
+    },
+    {
+        "id": 83,
+        "nombre": "Inscryption",
+        "desarrollador": "Daniel Mullins",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co401c.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar123g.webp",
+        "review": "\nBuah, tremenda fumada mental.\nMe encanta.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 84,
+        "nombre": "Fez",
+        "desarrollador": "Polytron Corporation",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1rd9.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard49.webp",
+        "review": "Me mola los puzles, pero los secretos están tan escondidos que llega un punto en el que sólo te lo quieres pasar o dejarlo... y yo lo dejé cuando me quedaban 10 minutos xd.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 85,
+        "nombre": "Unpacking",
+        "desarrollador": "Witch Beam",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1t45.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar8zs.webp",
+        "review": "¿Os podéis creer que este juego me estresaba más de lo que me relajaba? \nPorque al parecer no puedo poner los platos pequeños encima de los grandes...",
+        "añoJugado": 2021
+    },
+    {
+        "id": 86,
+        "nombre": "Tetris Effect",
+        "desarrollador": "Resonair",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2kfy.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/hyud8bqlda4p61xlniwl.webp",
+        "review": "Yo hace 3 años: jaja Tetris con partículas xd.\nYo ahora: Hostia puta, Tetris con partículas.\nAhora en serio, este juego es demasiado hipnotizante, al nivel de que no quieren que juegues al Tetris, sino que disfrutes el Tetris.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 87,
+        "nombre": "Never Alone: Kisima Ingitchuna",
+        "desarrollador": "Upper One Games",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h1t.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ardx8.webp",
+        "review": "\nQué cabrona la niña.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 88,
+        "nombre": "NieR Replicant ver.1.22474487139...",
+        "desarrollador": "Toylogic",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5h0n.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar6qm.webp",
+        "review": "\nYoko Taro, ¡¿Qué te fumas?!\nDel niño de los recados a matar dioses, ¿esto te tiene sentido?",
+        "añoJugado": 2021
+    },
+    {
+        "id": 89,
+        "nombre": "Scarlet Nexus",
+        "desarrollador": "Bandai Namco Studios",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3b6l.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ardgb.webp",
+        "review": "Pensé que sólo sería un juego más de estilo animú, y es exactamente eso, solo que con un combate muy pulido y satisfactorio y con una trama muy animú pero que está bien hecha.\nBanda sonora goes bRRRRR.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 90,
+        "nombre": "Dicey Dungeons",
+        "desarrollador": "Terry Cavanagh",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h3y.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/araxw.webp",
+        "review": "RNG: El videojuego.\nSon dados... obviamente solo hay RNG.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 91,
+        "nombre": "Pureya",
+        "desarrollador": "Majorariatto",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2way.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arnbg.webp",
+        "review": "\nEl juego perfecto pa' cagar.",
+        "añoJugado": 2021
+    },
+    {
+        "id": 92,
+        "nombre": "Spiritfarer",
+        "desarrollador": "Thunder Lotus",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2fe7.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar8eu.webp",
+        "review": "Juego bonito, relajante, tranquilo, apaciguado, sexy, y otros tantos adjetivos que soy incapaz de añadir debido a mi baja capacidad lingüística.\nPero todo eso se arregla con abrazos.",
+        "añoJugado": 2021
     }
 ]

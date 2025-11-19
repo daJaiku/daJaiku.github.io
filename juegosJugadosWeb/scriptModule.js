@@ -3,12 +3,17 @@ import data from "./data.json" with { type: "json" };
 var sortedBy = "default";
 var defaultYear = 0;
 
+var pin = 0;
+var añoPin = 0;
+
 export function init()
 {
+    var añoPin = 0;
     const container = document.getElementById("container");
 
     for (let i=0; i < data.length; i++)
     {
+        //creación de etiquetas según el tipo de ordenamiento
         switch (sortedBy)
         {
             case "year":
@@ -46,7 +51,7 @@ export function init()
                     //añadir separador de año
                     const yearSeparator = document.createElement("div");
                     yearSeparator.id = "yearSeparator";
-                    yearSeparator.textContent = data[i].añoJugado;
+                    yearSeparator.textContent = "Jugado en " + data[i].añoJugado;
                     container.appendChild(yearSeparator);
 
                     defaultYear = data[i].añoJugado;
@@ -84,7 +89,14 @@ export function init()
         //título (incluye la fecha de lanzamiento)
         const title = document.createElement("div");
         title.id = "title";
-        title.textContent = data[i].id + ". " + data[i].nombre;
+
+        //title.textContent = data[i].id + ". " + data[i].nombre;
+        if (data[i].añoJugado != añoPin)
+        {
+            pin = data[i].id - 1;
+            añoPin = data[i].añoJugado;
+        }
+        title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
 
         //año de lanzamiento sin negrita
         const yearSpan = document.createElement("span");
