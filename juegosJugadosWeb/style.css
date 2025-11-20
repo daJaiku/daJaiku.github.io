@@ -62,7 +62,7 @@ button:hover
     user-select: none;
 }
 
-@media (max-width: 900px)
+@media screen and (max-width: 800px)
 {
     #card
     {
@@ -79,6 +79,7 @@ button:hover
         margin: 0px 0px 10px 0px;
         height: auto;
         width: 80%;
+        margin-bottom: 20px;
     }
     
 }
