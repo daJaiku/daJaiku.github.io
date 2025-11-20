@@ -216,9 +216,6 @@ function getVersion()
     const count = data.reduce((acc, item) => acc + (item.añoJugado === lastYear ? 1 : 0), 0);
 
     const versionDiv = document.getElementById("version");
-    versionDiv.textContent = `v${lastYear}.${totalGames}.${count}.0 ${debug ? "(Debug)" : ""}`;
-
-
-
-
+    versionDiv.textContent = `v${lastYear}.${totalGames}.${count}.1 ${debug ? "(Debug)" : ""}`;
+    
     }

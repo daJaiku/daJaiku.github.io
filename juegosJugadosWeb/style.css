@@ -18,6 +18,12 @@ html
     text-align: center; 
 
     overflow-x: hidden;
+
+}
+
+#container
+{
+    overflow-x: hidden;
 }
 
 button
