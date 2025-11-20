@@ -3,12 +3,16 @@ import data from "./data.json" with { type: "json" };
 let sortedBy = "default";
 let defaultYear = 0;
 
-let pin = 0;
-let añoPin = 0;
+let pin;
+let añoPin;
+
+getVersion();
 
 export function init()
 {
     añoPin = 0;
+    pin = 0;
+
     const container = document.getElementById("container");
 
     for (let i=0; i < data.length; i++)
@@ -90,13 +94,13 @@ export function init()
         const title = document.createElement("div");
         title.id = "title";
 
-        //title.textContent = data[i].id + ". " + data[i].nombre;
-        if (data[i].añoJugado != añoPin)
-        {
-            pin = data[i].id - 1;
-            añoPin = data[i].añoJugado;
-        }
-        title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
+        title.textContent = data[i].id + ". " + data[i].nombre;
+        // if (data[i].añoJugado != añoPin)
+        // {
+        //     pin = data[i].id - 1;
+        //     añoPin = data[i].añoJugado;
+        // }
+        // title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
 
         //año de lanzamiento sin negrita
         const yearSpan = document.createElement("span");
@@ -146,6 +150,7 @@ export function sortByYear()
     sortedBy = "year";
     defaultYear = 0;
 
+    data.sort((a, b) => a.id - b.id);
     data.sort((a, b) => a.año - b.año);
     clearContainer();
     init();
@@ -156,6 +161,7 @@ export function sortAlphabetically()
     sortedBy = "alphabetical";
     defaultYear = 0;
 
+    data.sort((a, b) => a.id - b.id);
     data.sort((a, b) => a.nombre.localeCompare(b.nombre));
     clearContainer();
     init();
@@ -169,3 +175,20 @@ function clearContainer()
         container.removeChild(container.firstChild);
     }
 }
+
+function getVersion()
+{
+    if (!data || data.length === 0)
+    {
+        console.log("No data");
+        return;
+    }
+
+    const lastYear = data[data.length - 1].añoJugado;
+    const totalGames = data.length;
+    const count = data.reduce((acc, item) => acc + (item.añoJugado === lastYear ? 1 : 0), 0);
+
+    const versionDiv = document.getElementById("version");
+    versionDiv.textContent = `Versión ${lastYear}.${totalGames}.${count}`;
+
+    }
