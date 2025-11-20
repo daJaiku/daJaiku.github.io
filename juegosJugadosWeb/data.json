@@ -1104,7 +1104,7 @@
     {
         "id": 111,
         "nombre": "Genshin Impact",
-        "desarrollador": "Hoyoverse",
+        "desarrollador": "HoYoverse",
         "año": 2020,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coa9dy.webp",
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4lmj.webp",
@@ -1200,5 +1200,435 @@
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1cnh.webp",
         "review": "Que no os engañe su estética fea y pixelada, porque intentar sobrevivir a las oleadas de infinitos monstruos es altamente adictivo.",
         "añoJugado": 2022
+    },
+    {
+        "id": 121,
+        "nombre": "The Jackbox Party Pack 9",
+        "desarrollador": "Jackbox Games",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co53jk.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1slp.webp",
+        "review": "Un pack de \"juegos de mesa\" digitales muy divertidos que te propondrá absurdas propuestas, y sumado al ingenio de los jugadores, ha sacado más de una risa con las burradas que íbamos soltando",
+        "añoJugado": 2023
+    },
+    {
+        "id": 122,
+        "nombre": "Stacklands",
+        "desarrollador": "Sokpop Collective",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4rpb.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1k4x.webp",
+        "review": "Como ya he mencionado en anteriores publicaciones, los juegos de gestión no son lo mío porque me suelen cansar rápido, pero convertirlo en un roguelite volviendo las partidas más cortas y con su sencillo diseño, me ha enganchado bastante.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 123,
+        "nombre": "The Legend of Zelda: Link's Awakening",
+        "desarrollador": "Nintendo",
+        "año": 1993,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3nnt.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/sckea3.webp",
+        "review": "Soy un fanboy de los juegos viejos? Sí.\nPodría haber jugado al remake? También.\nA pesar de haber tenido que mirar muchas pistas porque el juego es hipercríptico, ha sido un juego disfrutable y divertido de explorar.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 124,
+        "nombre": "Xenoblade Chronicles: Future Connected",
+        "desarrollador": "Monolith Soft",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5pgh.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/sc8adq.webp",
+        "review": "Solo era un epílogo del juego principal, pero tenía que apuntar de alguna forma que me había pasado por fin el juego.nEl juego tiene una historia (muy japonesa) pero interesante, aunque se ve opacado por el farmeo.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 125,
+        "nombre": "Party Hard",
+        "desarrollador": "Pinokl Games",
+        "año": 2015,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1xd1.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arc4h.webp",
+        "review": "\nMatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatarmatar",
+        "añoJugado": 2023
+    },
+    {
+        "id": 126,
+        "nombre": "Profesor Layton y la Villa Misteriosa",
+        "desarrollador": "Level-5",
+        "año": 2007,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6eek.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/if5nag5k2lzxlmrix6j9.webp",
+        "review": "Que no os engañen, este es un juego para que aprendas matemáticas, un tercio de los puzles consiste en resolver sistemas de ecuaciones con 3 incógnitas >:(",
+        "añoJugado": 2023
+    },
+    {
+        "id": 127,
+        "nombre": "Honkai Impact 3rd",
+        "desarrollador": "HoYoverse",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5a4y.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4ovf.webp",
+        "review": "Lo siento gente, he pecado.\nDe verdad que yo solo quería jugar al juego por la historia y no por los planos de tetorras que aparecen cada 3 frames... 😔",
+        "añoJugado": 2023
+    },
+    {
+        "id": 128,
+        "nombre": "Phasmophobia",
+        "desarrollador": "Kinetic Games",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coamcz.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ardfr.webp",
+        "review": "Ta' divertido, sobre todo la parte en la que te quedas en la seguridad del camión viendo cómo todo el mundo va perdiendo lentamente la poca cordura que les queda 🤗",
+        "añoJugado": 2023
+    },
+    {
+        "id": 129,
+        "nombre": "Pineapple on Pizza",
+        "desarrollador": "Majorariatto",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69au.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar27nr.webp",
+        "review": "\nEn efecto, transmite perfectamente lo que es la pizza con piña: algo que debería arder en el infierno.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 130,
+        "nombre": "The Murder of Sonic the Hedgehog",
+        "desarrollador": "SEGA",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6bk4.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar28ng.webp",
+        "review": "¿Quién iba a pensar que este proyecto random que salió en April Fools iba a ser mejor que la mayoría de juegos de su saga?",
+        "añoJugado": 2023
+    },
+    {
+        "id": 131,
+        "nombre": "Honkai: Star Rail",
+        "desarrollador": "HoYoverse",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coasur.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4l26.webp",
+        "review": "\nVuelvo a pedir disculpas por mi comportamiento, pero es que aunque no lo parezca, HoYoverse sabe hacer juegos...",
+        "añoJugado": 2023
+    },
+    {
+        "id": 132,
+        "nombre": "A Dance of Fire and Ice",
+        "desarrollador": "7th Beat Games",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20u0.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/are0z.webp",
+        "review": "He de admitir que antes de jugarlo pensaba que era un juego de ritmo mediocre, ya que no le pillaba el chiste a que haya un camino por el cual tenías que ir. Sin embargo, ha resultado ser un juego muy adictivo.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 133,
+        "nombre": "Rythm Doctor",
+        "desarrollador": "7th Beat Games",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9xi0.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3oad.webp",
+        "review": "\nAl contrario que el anterior juego, me gustaba el concepto, pero al jugarlo no me enganchó. Está divertido, pero le falta algo.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 134,
+        "nombre": "Do not Feed the Monkeys",
+        "desarrollador": "Fictiorama Studios",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28xk.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard9d.webp",
+        "review": "No me miréis mal cuando diga que es un simulador de voyeur, lo único parecido es que espías a gente a través de cámaras y es divert-\n...me acabo de delatar, ¿verdad?\nPuzles, gestión y decisiones, un juego excelente.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 135,
+        "nombre": "Mini Motorways",
+        "desarrollador": "Dinosaur Polo Club",
+        "año": 2019,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2p9v.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arj3s.webp",
+        "review": "Pues como el juego de los metros, pero con carreteras y más agobios, porque en lugar de coger el transporte público has preferido hacerte el guay y coger un coche.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 136,
+        "nombre": "Voice of Cards: The Isle Dragon Roars",
+        "desarrollador": "Alim",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4vmh.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar14jr.webp",
+        "review": "Este juego intenta simular un juego de rol convencional donde todo está hecho con cartas: el tablero, los personajes, etc.\nComo videojuego pues es un RPG normalito y ligero que no se llega a hacer pesado.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 137,
+        "nombre": "Card Shark",
+        "desarrollador": "Nerial",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4a5i.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar9qp.webp",
+        "review": "No es un juego de cartas. Es un juego de HACER TRAMPAS a las cartas.\nBuena forma de robarle el dinero a los ricos. Además a franceses. Robarle a ricos franceses. Incluso al rey. Si. Robarle al rey de Francia. Me encanta.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 138,
+        "nombre": "Nihilumbra",
+        "desarrollador": "BeutiFun Games",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27n2.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard9n.webp",
+        "review": "Juego de puzles con colorines. Existe. Usa bien los colorines. Y ya. Había un narrador que contaba la historia pero resolvía los puzles tan rápido que se cortaba su narración jsjs.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 139,
+        "nombre": "Cuphead: The Delicious Last Course",
+        "desarrollador": "Studio MDHR",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co62al.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/nbms6os9cefv0hds8gve.webp",
+        "review": "Al igual que el juego base, un juego super chulo con unos jefes muy originales.\nEsta vez me lo pasé solo para no tirar del carro de nadie jsjs.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 140,
+        "nombre": "Crash Bandicoot 2: Cortex Strikes Back",
+        "desarrollador": "Vicarious Visions",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i42.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/sc8mof.webp",
+        "review": "La primera entrega me pareció mediocre, pero se le perdona algunos aspectos por ser de los primeros acercamientos a los plataformas 3D, además de que al menos era entretenido.\nEsta entrega es decepcionante.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 141,
+        "nombre": "Crash Bandicoot: Warped",
+        "desarrollador": "Vicarious Visions",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2i43.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/sc8mog.webp",
+        "review": "Gracias por arreglar los fallos de diseño que llevabais arrastrando en dos juegos. Niveles menos rectos y más interesantes, saltos que no son injustos y variedad en la jugabilidad.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 142,
+        "nombre": "Crash Bandicoot 4: It's About Time",
+        "desarrollador": "Toys for Bob",
+        "año": 2020,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2hp4.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar7dk.webp",
+        "review": "Fe recuperada en la saga. Sigue habiendo detallitos de diseño que no me convencen, pero no llegan a molestar. Hay más personajes jugables, nuevos poderes y quitaron el sistema de vidas.\nY como todos, sigue siendo un juego normalito.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 143,
+        "nombre": "We Were Here Expeditions: The FriendShip",
+        "desarrollador": "Total Mayhem Games",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co72yn.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2j13.webp",
+        "review": "Una experiencia cooperativa muy graciosa que me he gozado con un rubio de bote como yo.\nLas risas con los puzles están garantizadas, pero es demasiado cortito y está pensado para rejugar y superar puntuaciones.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 144,
+        "nombre": "We Were Here",
+        "desarrollador": "Total Mayhem Games",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1odo.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arr5k.webp",
+        "review": "Mi compi y yo queríamos más, y eso hicimos: cogimos el otro juego que estaba gratis (era el primero).\nSe nota que tenían la idea y la ejecutaron, pero les quedaba pulirla bastante hasta llegar al resultado de la última entrega.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 145,
+        "nombre": "Gorogoa",
+        "desarrollador": "Jason Roberts",
+        "año": 2017,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3kby.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ard5y.webp",
+        "review": "Ni siquiera sabría cómo explicar este juego de puzles, solo puedo decir que es muy inteligente y que explota la única mecánica planteada de forma excepcional.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 146,
+        "nombre": "Manual Samuel",
+        "desarrollador": "Perfectly Paranormal",
+        "año": 2016,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co27lt.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar6ur.webp",
+        "review": "Típico juego que te compras porque está muy barato y que tiene un concepto muy chorra que te llama la atención: lo dejé.\nAhora tocaba vaciar la galería de Steam y pues aquí estamos.\nMi rubio de confianza me ayudó porque tiene multijugador y fue gracioso.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 147,
+        "nombre": "Super Mario Bros. Wonder",
+        "desarrollador": "Nintendo",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nnl.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2dcn.webp",
+        "review": "\nNada que decir. Juegazo que todo el mundo debería probar.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 148,
+        "nombre": "Voice of Cards: The Forsaken Maiden",
+        "desarrollador": "Alim",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4kak.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1gwa.webp",
+        "review": "Otro juego de la saga Voice of Cards, el cual no añade ninguna otra mecánica, sino que simplemente cuenta otra historia con la misma base.\nOlvidé mencionarlo en la primera entrega, pero el directo creativo es Yoko Taro...",
+        "añoJugado": 2023
+    },
+    {
+        "id": 149,
+        "nombre": "Pikmin 4",
+        "desarrollador": "Nintendo",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co657e.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2603.webp",
+        "review": "*insertar sonido de Pikmin gritando*\n*muchas veces*\n*mátalos a todos*\nObviando el genocidio y explotación de una especie autóctona de un planeta desconocido, para ser un juego de estrategia y exploración, es muy chill y divertido.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 150,
+        "nombre": "Plants vs. Zombies",
+        "desarrollador": "PopCap Games",
+        "año": 2009,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co69id.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar8c0.webp",
+        "review": "\nQue bonito era todo antes de que lo tocase EA...",
+        "añoJugado": 2023
+    },
+    {
+        "id": 151,
+        "nombre": "7 Billion Humans",
+        "desarrollador": "Tomorrow Corporation",
+        "año": 2018,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co28re.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar96x.webp",
+        "review": "\n\"Se me debería dar bien porque soy ingeniero\": el videojuego.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 152,
+        "nombre": "\"El cordero Cultureta y la Secta más Coqueta\"",
+        "desarrollador": "Massive Monster",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co55md.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1h76.webp",
+        "review": "No se llama así, pero sabéis perfectamente qué juego es.\nSolo tengo una queja.\n¿POR QUÉ ME DAS HERRAMIENTAS PARA IR RÁPIDO Y LUEGO ME CASTIGAS POR HACERLO?\nYa está, con el resto del juego todo bien :)",
+        "añoJugado": 2023
+    },
+    {
+        "id": 153,
+        "nombre": "Storyteller",
+        "desarrollador": "Daniel Benmergui",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co3hem.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ytg.webp",
+        "review": "Netflix has estado metiendo jueguitos en su plataforma y toca sacarle provecho.\nEntre ellos está este juego de puzles. Tampoco hay mucho más que decir. Está gracioso.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 154,
+        "nombre": "Velocibox",
+        "desarrollador": "Shawn Beck Games",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co221m.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1czz.webp",
+        "review": "\nEmpieza. Corre. Muere. Repite.\nEs muy simple pero está tan bien diseñado que es adictivo.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 155,
+        "nombre": "Oxenfree II: Lost Signals",
+        "desarrollador": "Night School Studio",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6eks.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2a10.webp",
+        "review": "Igual que en el primer juego, las conversaciones que tienen los personajes siguen teniendo un doblaje muy bueno, pero la reducción de personajes y dramas hacen que se vuelva un juego más plano.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 156,
+        "nombre": "Hexcells",
+        "desarrollador": "Matthew Brown",
+        "año": 2013,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co248b.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ftbwchrvhvjkymlqbqps.webp",
+        "review": "Son tres juegos pero son lo mismo.\nPara resumir, es una mezcla entre buscaminas y picross.\nSolo me puedo quejar de que se dice que todos los niveles son posibles sin adivinar pero eso es mentira (o tengo cerebro chikito).",
+        "añoJugado": 2023
+    },
+    {
+        "id": 157,
+        "nombre": "Cocoon",
+        "desarrollador": "Geometric Interactive",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4v2z.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1pb3.webp",
+        "review": "Qué cojones (pero para bien).\nLo siento, su diseñador es el creador de Limbo e Inside y sus reviews siempre las mantengo lo más abstractas posibles porque wtf qué se fuma este hombre.\nPero qué cojones.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 158,
+        "nombre": "Super Mario RPG",
+        "desarrollador": "ArtePiazza",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7pjz.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3p10.webp",
+        "review": "¿Os intimidan los JRPGs porque sabéis que os esperan al menos 120 horas de juego? Éste solo dura una décima parte y es una experiencia redondita y tranquilita porque Mario. Gráficos bonicos.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 159,
+        "nombre": "Pokémon Escarlata: El Tesoro Oculto del Área Cero",
+        "desarrollador": "Game Freak",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co67iv.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scn3u9.webp",
+        "review": "¿De verdad os dignáis a sacar un DLC de un juego que no habéis querido arreglar? En fin.\n¿Me sigue entreteniendo? Si, pero porque soy tonto. Además la banda sonora es muy buena. Os odio.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 160,
+        "nombre": "Borderlands: The Pre-Sequel",
+        "desarrollador": "2K Australia",
+        "año": 2014,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co20tq.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m14.webp",
+        "review": "¿CÓMO PODEIS HACER UN JUEGO MECÁNICAMENTE DIVERTIDO Y HACER QUE LE COJA ASCO CON UN JEFE?\nLO PEOR ES QUE NO ES EL ÚLTIMO PORQUE ESE ESTABA BIEN DISEÑADO.\nUn tal tryhard estaba ahí carrileando.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 161,
+        "nombre": "Before Your Eyes",
+        "desarrollador": "GoodbyeWorld Games",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2x7h.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/are6z.webp",
+        "review": "Un concepto narrativo interesante en el que si parpadeas, pasas al siguiente tramo de la historia.\nJuega mucho con la posibilidad de que te hayas perdido algo solo por pestañear.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 162,
+        "nombre": "Peggle Deluxe",
+        "desarrollador": "PopCap Games",
+        "año": 2007,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2h9x.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arnz6.webp",
+        "review": "\n4º movimiento de la novena sinfonía de Ludwig Van Beethoven y bolas.",
+        "añoJugado": 2023
+    },
+    {
+        "id": 163,
+        "nombre": "The Legend of Zelda: Tears of the Kingdom",
+        "desarrollador": "Nintendo",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5vmg.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m45.webp",
+        "review": "Es muy curioso, porque lo he disfrutado incluso más que la primera parte pero, ¿como que ha caído en el olvido bastante rápido? Sigue siendo un juegazo.\n(Nota de editor: el juego me lo pasé en junio pero no le hice la review hasta abril del año siguiente. Hasta ese punto se me había olvidado.)",
+        "añoJugado": 2023
     }
 ]

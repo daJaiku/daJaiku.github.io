@@ -16,6 +16,8 @@ html
     margin: 1% 0%;
 
     text-align: center; 
+
+    overflow-x: hidden;
 }
 
 button
@@ -76,9 +78,6 @@ button:hover
 
     img
     {
-        margin: 0px 0px 10px 0px;
-        height: auto;
-        width: 80%;
         margin-bottom: 20px;
     }
     
@@ -138,4 +137,14 @@ span
     padding-top: 3.5%;
 
     white-space: pre-wrap;
+}
+
+#buttonHolder
+{
+    position: sticky;
+    top: 0;
+    background-color: var(--bg-color);
+    padding-top: 25px;
+
+    z-index: 2;
 }

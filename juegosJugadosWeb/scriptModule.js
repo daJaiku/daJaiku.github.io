@@ -1,5 +1,8 @@
 import data from "./data.json" with { type: "json" };
 
+let debug = false;
+
+
 let sortedBy = "default";
 let defaultYear = 0;
 
@@ -26,9 +29,15 @@ export function init()
                 {
                     //añadir separador de año
                     const yearSeparator = document.createElement("div");
+                    const br = document.createElement("br");
+                    const br2 = document.createElement("br");
+
                     yearSeparator.id = "yearSeparator";
                     yearSeparator.textContent = data[i].año;
+
+                    container.appendChild(br);
                     container.appendChild(yearSeparator);
+                    container.appendChild(br2);
 
                     defaultYear = data[i].año;
                 }
@@ -40,9 +49,15 @@ export function init()
                 {
                     //añadir separador de año
                     const yearSeparator = document.createElement("div");
+                    const br = document.createElement("br");
+                    const br2 = document.createElement("br");
+
                     yearSeparator.id = "yearSeparator";
                     yearSeparator.textContent = data[i].nombre.charAt(0).toUpperCase();
+
+                    container.appendChild(br);
                     container.appendChild(yearSeparator);
+                    container.appendChild(br2);
 
                     defaultYear = data[i].nombre.charAt(0).toUpperCase();
                 }
@@ -54,9 +69,15 @@ export function init()
                 {
                     //añadir separador de año
                     const yearSeparator = document.createElement("div");
+                    const br = document.createElement("br");
+                    const br2 = document.createElement("br");
+
                     yearSeparator.id = "yearSeparator";
                     yearSeparator.textContent = "Jugado en " + data[i].añoJugado;
+
+                    container.appendChild(br);
                     container.appendChild(yearSeparator);
+                    container.appendChild(br2);
 
                     defaultYear = data[i].añoJugado;
                 }
@@ -94,13 +115,19 @@ export function init()
         const title = document.createElement("div");
         title.id = "title";
 
-        title.textContent = data[i].id + ". " + data[i].nombre;
-        // if (data[i].añoJugado != añoPin)
-        // {
-        //     pin = data[i].id - 1;
-        //     añoPin = data[i].añoJugado;
-        // }
-        // title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
+        if (debug)
+        {
+            if (data[i].añoJugado != añoPin)
+            {
+            pin = data[i].id - 1;
+            añoPin = data[i].añoJugado;
+            }
+            title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
+        }
+        else
+        {
+            title.textContent = data[i].id + ". " + data[i].nombre;
+        }
 
         //año de lanzamiento sin negrita
         const yearSpan = document.createElement("span");
@@ -189,6 +216,9 @@ function getVersion()
     const count = data.reduce((acc, item) => acc + (item.añoJugado === lastYear ? 1 : 0), 0);
 
     const versionDiv = document.getElementById("version");
-    versionDiv.textContent = `Versión ${lastYear}.${totalGames}.${count}`;
+    versionDiv.textContent = `v${lastYear}.${totalGames}.${count}.0 ${debug ? "(Debug)" : ""}`;
+
+
+
 
     }

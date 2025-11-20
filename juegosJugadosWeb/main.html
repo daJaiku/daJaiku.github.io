@@ -6,7 +6,6 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <script type="module" src="script.js"></script>
 
-        <!-- <meta name="viewport" content="width=device-width, initial-scale=0.4, maximum-scale=3.0, minimum-scale=0.3, user-scalable=no"> -->
         <meta name="viewport" content="initial-scale=0.8, user-scalable=no">
     </head>
 
@@ -14,10 +13,16 @@
     <body onload="init()">
         <h1>Reviews en menos de 280 caracteres</h1>
         <div id="version"></div><br>
-        Ordenar:
-        <button id="sortByDefault" onclick="sortByDefault()">Por defecto </button>
-        <button id="sortAlphabetically" onclick="sortAlphabetically()">A-Z</button>
-        <button id="sortByYear" onclick="sortByYear()">Por año</button>
+        
+        <div id="buttonHolder">
+            Ordenar:
+            <button id="sortByDefault" onclick="sortByDefault()">Por defecto </button>
+            <button id="sortAlphabetically" onclick="sortAlphabetically()">A-Z</button>
+            <button id="sortByYear" onclick="sortByYear()">Por año</button>
+
+            <hr>
+        </div>
+
         <div id="container">
         </div>
     </body>
