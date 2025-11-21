@@ -1,150 +1,214 @@
 import data from "./data.json" with { type: "json" };
 
+let gameList = data;
+
+//configuración
 let debug = false;
+getVersion('02');
 
 
-let sortedBy = "default";
-let defaultYear = 0;
 
-let pin;
-let añoPin;
-
-getVersion();
 
 export function init()
 {
-    añoPin = 0;
-    pin = 0;
+    setButtons();
+    draw();
+}
 
-    const container = document.getElementById("container");
+function setButtons()
+{
+    const buttonHolder = document.getElementById("buttonHolder");
 
-    for (let i=0; i < data.length; i++)
-    {
-        //creación de etiquetas según el tipo de ordenamiento
-        switch (sortedBy)
+    buttonHolder.textContent = "Ordenar:";
+
+    createButton(buttonHolder, "por defecto", () => sortGames(null));
+    createButton(buttonHolder, "A-Z", () => sortGames('alphabetical'));
+    createButton(buttonHolder, "por año", () => sortGames('year'));
+
+    buttonHolder.appendChild(document.createElement("br"));
+
+    buttonHolder.appendChild(document.createTextNode("Filtrar por:"));
+
+    createButton(buttonHolder, "por defecto", () => filterGames(null));
+    createButton(buttonHolder, "2020", () => filterGames(2020));
+    createButton(buttonHolder, "2021", () => filterGames(2021));
+    createButton(buttonHolder, "2022", () => filterGames(2022));
+    createButton(buttonHolder, "2023", () => filterGames(2023));
+
+    buttonHolder.appendChild(document.createElement("hr"));
+}
+
+function createButton(buttonHolder, text, onClickFunc)
+{
+    let button = document.createElement("button");
+    button.textContent = text;
+    button.onclick = onClickFunc;
+    buttonHolder.appendChild(button);
+}
+
+function sortGames(sortType)
+{
+    debug ? console.log("Sorting by " + sortType) : null;
+
+    gameList = data;
+    gameList.sort((a, b) => a.id - b.id);
+
+    switch (sortType)
+    {        
+        case "year":
         {
-            case "year":
-            {
-                if (data[i].año != defaultYear)
-                {
-                    //añadir separador de año
-                    const yearSeparator = document.createElement("div");
-                    const br = document.createElement("br");
-                    const br2 = document.createElement("br");
+            gameList.sort((a, b) => a.año - b.año);
+        }
+        break;
+        case "alphabetical":
+        {
+            gameList.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        }
+        break;
+    }
 
-                    yearSeparator.id = "yearSeparator";
-                    yearSeparator.textContent = data[i].año;
+    draw(sortType);
+}
 
-                    container.appendChild(br);
-                    container.appendChild(yearSeparator);
-                    container.appendChild(br2);
+function filterGames(year)
+{
+    debug ? console.log("Filtering by " + year) : null;
 
-                    defaultYear = data[i].año;
-                }
-                break;
-            }
-            case "alphabetical":
-            {
-                if (data[i].nombre.charAt(0).toUpperCase() != defaultYear)
-                {
-                    //añadir separador de año
-                    const yearSeparator = document.createElement("div");
-                    const br = document.createElement("br");
-                    const br2 = document.createElement("br");
+    gameList = data;
+    gameList.sort((a, b) => a.id - b.id);
 
-                    yearSeparator.id = "yearSeparator";
-                    yearSeparator.textContent = data[i].nombre.charAt(0).toUpperCase();
+    if (year != null)
+    {
+        gameList = gameList.filter(item => item.añoJugado === year);
+    }
 
-                    container.appendChild(br);
-                    container.appendChild(yearSeparator);
-                    container.appendChild(br2);
+    draw();
+}
 
-                    defaultYear = data[i].nombre.charAt(0).toUpperCase();
-                }
-                break;
-            }
+function clearContainer(container)
+{
+    while (container.firstChild)
+        container.removeChild(container.firstChild);
+}
+
+
+function draw(sortType)
+{
+    const container = document.getElementById("container");
+    let card;
+    let bgImage;
+    let coverImage;
+    let textContainer;
+    let titleContainer;
+    let title;
+    let year;
+    let developer;
+    let review;
+
+    let debugFlagYear = 0;
+    let debugFlagId = 0;
+
+    clearContainer(container);
+
+    let separator;
+
+    let lastData = null;
+    let isDataUpdated = false;
+
+    for (let i=0; i < gameList.length; i++)
+    {
+        separator = document.createElement("div");
+        
+        isDataUpdated = false;
+
+        switch (sortType)
+        {
             default:
             {
-                if (data[i].añoJugado != defaultYear)
+                if (gameList[i].añoJugado != lastData)
                 {
-                    //añadir separador de año
-                    const yearSeparator = document.createElement("div");
-                    const br = document.createElement("br");
-                    const br2 = document.createElement("br");
-
-                    yearSeparator.id = "yearSeparator";
-                    yearSeparator.textContent = "Jugado en " + data[i].añoJugado;
-
-                    container.appendChild(br);
-                    container.appendChild(yearSeparator);
-                    container.appendChild(br2);
-
-                    defaultYear = data[i].añoJugado;
+                    lastData = gameList[i].añoJugado;
+                    separator.textContent = "Jugado en " + lastData;
+                    isDataUpdated = true;
                 }
-                break;
             }
+            break;
+            case "year":
+            {
+                if (gameList[i].año != lastData)
+                {
+                    lastData = gameList[i].año;
+                    separator.textContent = lastData;
+                    isDataUpdated = true;
+                }
+            }
+            break;
+            case "alphabetical":
+            {
+                if (gameList[i].nombre.charAt(0).toUpperCase() != lastData)
+                {                    
+                    lastData = gameList[i].nombre.charAt(0).toUpperCase();
+                    separator.textContent = lastData;
+                    isDataUpdated = true;
+                }
+            }
+            break;
+        }
+
+        if (isDataUpdated)
+        {
+            separator.className = "separator";
+            container.appendChild(separator);
         }
 
 
+        card = document.createElement("div");
+        card.className = "card";
+        card.id = gameList[i].añoJugado;
 
-        //tarjeta de cada juego (identificado con el año en el que se ha jugado)
-        const card = document.createElement("div");
-        card.id = "card";
-        card.className = data[i].añoJugado;
-
-        //imagen de fondo (si tiene)
-        const bg = document.createElement("div");
-        bg.id = "backgroundImage";
-        if (data[i].imagenFondo) 
-            bg.style.backgroundImage = `url("${data[i].imagenFondo}")`;
-
-        //imagen del juego (carátula)
-        const image = document.createElement("img");
-        image.id = "image";
-        image.src = data[i].imagen;
-
-        //contenedor donde se encuentra todo el texto
-        const textContainer = document.createElement("div");
-        textContainer.id = "textContainer";
-
-        //contenedor del título y la desarrolladora
-        const titleContainer = document.createElement("div");
-        titleContainer.id = "titleContainer";
-
-        //título (incluye la fecha de lanzamiento)
-        const title = document.createElement("div");
-        title.id = "title";
-
-        if (debug)
+        if (gameList[i].imagenFondo)
         {
-            if (data[i].añoJugado != añoPin)
+            bgImage = document.createElement("div");
+            bgImage.className = "backgroundImage";
+            bgImage.style.backgroundImage = `url("${gameList[i].imagenFondo}")`;
+        }
+
+        coverImage = document.createElement("img");
+        coverImage.className = "image";
+        coverImage.src = gameList[i].imagen;
+
+        textContainer = document.createElement("div");
+        textContainer.className = "textContainer";
+
+        titleContainer = document.createElement("div");
+        titleContainer.className = "titleContainer";
+
+        title = document.createElement("div");
+        title.className = "title";
+
+        if (debug && !sortType)
+        {
+            if (gameList[i].añoJugado != debugFlagYear)
             {
-            pin = data[i].id - 1;
-            añoPin = data[i].añoJugado;
+                debugFlagYear = gameList[i].añoJugado;
+                debugFlagId = gameList[i].id - 1;
             }
-            title.textContent = (data[i].id - pin) + ". " + data[i].nombre;
+            title.textContent = (gameList[i].id-debugFlagId) + ". " + gameList[i].nombre;
         }
         else
-        {
-            title.textContent = data[i].id + ". " + data[i].nombre;
-        }
+            title.textContent = gameList[i].id + ". " + gameList[i].nombre;
 
-        //año de lanzamiento sin negrita
-        const yearSpan = document.createElement("span");
-        yearSpan.textContent = " (" + data[i].año + ")";
+        year = document.createElement("span");
+        year.textContent = " (" + gameList[i].año + ")";
+        title.appendChild(year);
 
-        title.appendChild(yearSpan);
+        developer = document.createElement("div");
+        developer.className = "developer";
+        developer.textContent = gameList[i].desarrollador;
 
-        //desarrolladora
-        const developer = document.createElement("div");
-        developer.id = "developer";
-        developer.textContent = data[i].desarrollador;
-
-        //review
-        const review = document.createElement("div");
-        review.id = "review";
-        review.textContent = data[i].review;
-
+        review = document.createElement("div");
+        review.className = "review";
+        review.textContent = gameList[i].review;
 
         titleContainer.appendChild(title);
         titleContainer.appendChild(developer);
@@ -153,69 +217,45 @@ export function init()
         textContainer.appendChild(review);
 
 
-        if (data[i].imagenFondo)
-            card.appendChild(bg);
-        card.appendChild(image);
+        if (gameList[i].imagenFondo)
+            card.appendChild(bgImage);
+        card.appendChild(coverImage);
         card.appendChild(textContainer);
 
         container.appendChild(card);
     }
 }
 
-export function sortByDefault()
+// function filter(year)
+// {
+//     sort('');
+
+//     const container = document.getElementById("container");
+
+//     if (year == null)
+//     {
+//         Array.from(container.children).forEach(card => card.style.display = "");
+//         return;
+//     }
+
+//     Array.from(container.children).forEach(card => {
+//         card.style.display = (card.className == year) ? "" : "none";
+//     });
+// }
+
+
+function getVersion(rev)
 {
-    sortedBy = "default";
-    defaultYear = 0;
-
-    data.sort((a, b) => a.id - b.id);
-    clearContainer();
-    init();
-}
-
-export function sortByYear()
-{
-    sortedBy = "year";
-    defaultYear = 0;
-
-    data.sort((a, b) => a.id - b.id);
-    data.sort((a, b) => a.año - b.año);
-    clearContainer();
-    init();
-}
-
-export function sortAlphabetically()
-{
-    sortedBy = "alphabetical";
-    defaultYear = 0;
-
-    data.sort((a, b) => a.id - b.id);
-    data.sort((a, b) => a.nombre.localeCompare(b.nombre));
-    clearContainer();
-    init();
-}
-
-function clearContainer()
-{
-    const container = document.getElementById("container");
-    while (container.firstChild)
-    {
-        container.removeChild(container.firstChild);
-    }
-}
-
-function getVersion()
-{
-    if (!data || data.length === 0)
+    if (!gameList || gameList.length === 0)
     {
         console.log("No data");
         return;
     }
 
-    const lastYear = data[data.length - 1].añoJugado;
-    const totalGames = data.length;
-    const count = data.reduce((acc, item) => acc + (item.añoJugado === lastYear ? 1 : 0), 0);
+    const lastYear = gameList[gameList.length - 1].añoJugado;
+    const totalGames = gameList.length;
+    const count = gameList.reduce((acc, item) => acc + (item.añoJugado === lastYear ? 1 : 0), 0);
 
     const versionDiv = document.getElementById("version");
-    versionDiv.textContent = `v${lastYear}.${totalGames}.${count}.1 ${debug ? "(Debug)" : ""}`;
-    
-    }
+    versionDiv.textContent = `v${lastYear}.${totalGames}.${count}.${rev} ${debug ? "(Debug)" : ""}`;
+}

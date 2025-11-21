@@ -21,10 +21,6 @@ html
 
 }
 
-#container
-{
-    overflow-x: hidden;
-}
 
 button
 {
@@ -48,7 +44,130 @@ button:hover
     background-color: #555;
 }
 
-#card
+
+#container
+{
+    overflow-x: hidden;
+}
+
+
+.separator
+{
+    margin: 25px;
+}
+
+
+.card
+{
+    background-color: var(--card-bg);
+    border: 3px solid var(--white-color);
+    border-radius: 15px;
+
+    margin: 10px auto;
+    padding: 20px; 
+
+    width: 700px;
+    height: 200px;
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    z-index: 1;
+
+    user-select: none;
+}
+
+.backgroundImage
+{
+    background-size: cover;
+    border-radius: 12px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    z-index: 0;
+    opacity: 0.2;
+
+    user-select: none;
+}
+
+.image
+{
+    border-radius: 5%;
+    width: auto;
+
+    height: 100%;
+
+    margin-right: 4%;
+
+    z-index: 1;
+}
+
+.textContainer
+{
+    width: 100%;
+    z-index: 1;
+}
+
+.titleContainer
+{
+
+}
+
+.title
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+span
+{
+    font-weight: normal;
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.developer
+{
+
+}
+
+.review
+{
+    padding-top: 3.5%;
+
+    white-space: pre-wrap;
+}
+
+@media screen and (max-width: 800px)
+{
+    .card
+    {
+        width: 90%;
+        height: auto;
+
+        flex-direction: column;
+
+        font-size: 20px;
+    }
+
+    .image
+    {
+        margin-bottom: 20px;
+    }
+    
+}
+
+
+
+
+
+/* #card
 {
     background-color: var(--card-bg);
     border: 3px solid var(--white-color);
@@ -87,10 +206,10 @@ button:hover
         margin-bottom: 20px;
     }
     
-}
+} */
 
 
-#backgroundImage
+/* #backgroundImage
 {
     background-size: cover;
     border-radius: 12px;
@@ -105,9 +224,9 @@ button:hover
     opacity: 0.2;
 
     user-select: none;
-}
+} */
 
-img
+/* img
 {
     border-radius: 5%;
     width: auto;
@@ -117,8 +236,8 @@ img
     margin-right: 4%;
 
     z-index: 1;
-}
-
+} */
+/* 
 #textContainer
 {
     width: 100%;
@@ -129,21 +248,16 @@ img
 {
     font-size: 30px;
     margin-bottom: 10px;
-}
+} */
 
-span
-{
-    font-weight: normal;
-    font-size: 25px;
-    margin-left: 5px;
-}
 
-#review
+
+/* #review
 {
     padding-top: 3.5%;
 
     white-space: pre-wrap;
-}
+} */
 
 #buttonHolder
 {
@@ -154,3 +268,4 @@ span
 
     z-index: 2;
 }
+
