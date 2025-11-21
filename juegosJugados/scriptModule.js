@@ -4,9 +4,7 @@ let gameList = data;
 
 //configuración
 let debug = false;
-getVersion('02');
-
-
+getVersion('03');
 
 
 export function init()
@@ -18,22 +16,42 @@ export function init()
 function setButtons()
 {
     const buttonHolder = document.getElementById("buttonHolder");
+    let selectSort;
+    let selectFilter;
 
     buttonHolder.textContent = "Ordenar:";
 
-    createButton(buttonHolder, "por defecto", () => sortGames(null));
-    createButton(buttonHolder, "A-Z", () => sortGames('alphabetical'));
-    createButton(buttonHolder, "por año", () => sortGames('year'));
+    selectSort = document.createElement("select");
+    [
+        { text: "por defecto", value: "" },
+        { text: "A-Z", value: "alphabetical" },
+        { text: "por año", value: "year" }
+    ].forEach(opt => {
+        const option = document.createElement("option");
+        option.value = opt.value;
+        option.textContent = opt.text;
+        selectSort.appendChild(option);
+    });
+    selectSort.onchange = () => sortGames(selectSort.value === "" ? null : selectSort.value);
+    buttonHolder.appendChild(selectSort);
 
-    buttonHolder.appendChild(document.createElement("br"));
+    buttonHolder.appendChild(document.createTextNode("Filtrar:"));
 
-    buttonHolder.appendChild(document.createTextNode("Filtrar por:"));
-
-    createButton(buttonHolder, "por defecto", () => filterGames(null));
-    createButton(buttonHolder, "2020", () => filterGames(2020));
-    createButton(buttonHolder, "2021", () => filterGames(2021));
-    createButton(buttonHolder, "2022", () => filterGames(2022));
-    createButton(buttonHolder, "2023", () => filterGames(2023));
+    selectFilter = document.createElement("select");
+    [
+        { text: "por defecto", value: "" },
+        { text: "2020", value: "2020" },
+        { text: "2021", value: "2021" },
+        { text: "2022", value: "2022" },
+        { text: "2023", value: "2023" }
+    ].forEach(opt => {
+        const option = document.createElement("option");
+        option.value = opt.value;
+        option.textContent = opt.text;
+        selectFilter.appendChild(option);
+    });
+    selectFilter.onchange = () => filterGames(selectFilter.value === "" ? null : parseInt(selectFilter.value));
+    buttonHolder.appendChild(selectFilter);
 
     buttonHolder.appendChild(document.createElement("hr"));
 }
@@ -49,6 +67,8 @@ function createButton(buttonHolder, text, onClickFunc)
 function sortGames(sortType)
 {
     debug ? console.log("Sorting by " + sortType) : null;
+
+    resetSortAndFilter(1);
 
     gameList = data;
     gameList.sort((a, b) => a.id - b.id);
@@ -74,6 +94,8 @@ function filterGames(year)
 {
     debug ? console.log("Filtering by " + year) : null;
 
+    resetSortAndFilter(0);
+
     gameList = data;
     gameList.sort((a, b) => a.id - b.id);
 
@@ -84,6 +106,21 @@ function filterGames(year)
 
     draw();
 }
+
+//Burrada hecha mientras no sé combinar los dos select
+function resetSortAndFilter(pos)
+ {
+        const buttonHolder = document.getElementById("buttonHolder");
+    if (buttonHolder) {
+        const selects = buttonHolder.querySelectorAll("select");
+        if (selects.length > 1) {
+            // reset sort select to default
+            selects[pos].value = "";
+        }
+    }
+ }
+
+
 
 function clearContainer(container)
 {
@@ -225,24 +262,6 @@ function draw(sortType)
         container.appendChild(card);
     }
 }
-
-// function filter(year)
-// {
-//     sort('');
-
-//     const container = document.getElementById("container");
-
-//     if (year == null)
-//     {
-//         Array.from(container.children).forEach(card => card.style.display = "");
-//         return;
-//     }
-
-//     Array.from(container.children).forEach(card => {
-//         card.style.display = (card.className == year) ? "" : "none";
-//     });
-// }
-
 
 function getVersion(rev)
 {
