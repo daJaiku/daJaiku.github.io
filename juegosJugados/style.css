@@ -110,9 +110,10 @@ button:hover, select:hover
 .image
 {
     border-radius: 5%;
-    width: auto;
-
-    height: 100%;
+    /* width: auto;
+    height: 100%; */
+    width: 21.5%;
+    height: auto;
 
     margin-right: 4%;
 
@@ -123,6 +124,13 @@ button:hover, select:hover
 {
     width: 100%;
     z-index: 1;
+
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: flex-start;
+    height: 100%;
 }
 
 .titleContainer
@@ -133,7 +141,7 @@ button:hover, select:hover
 .title
 {
     font-size: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 span
@@ -153,6 +161,10 @@ span
     padding-top: 3.5%;
 
     white-space: pre-wrap;
+    margin: auto 0;
+    display: flex;
+    align-items: center;
+    padding-top: 0;
 }
 
 @media screen and (max-width: 800px)
@@ -170,5 +182,30 @@ span
     .image
     {
         margin-bottom: 20px;
+
+        border-radius: 5%;
+        width: auto;
+        height: 100%;
+        /* width: 21%;
+        height: auto; */
+
+    margin-right: 4%;
+
+    z-index: 1;
+
+    }
+
+    .titleContainer
+    {
+        align-items: center;
+        text-align: center;
+
+        margin-bottom: 15px;
+    }
+
+    .textContainer
+    {
+        text-align: center;
+        align-items: center;
     }
 }

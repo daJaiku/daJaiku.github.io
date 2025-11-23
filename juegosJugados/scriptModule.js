@@ -4,14 +4,17 @@ let gameList = data;
 
 //configuración
 let debug = false;
-getVersion('03');
+getVersion('00');
 
 
 export function init()
 {
     setButtons();
     draw();
+
+    debug ? null: scrollToTop();
 }
+
 
 function setButtons()
 {
@@ -44,6 +47,7 @@ function setButtons()
         { text: "2021", value: "2021" },
         { text: "2022", value: "2022" },
         { text: "2023", value: "2023" }
+        , { text: "2024", value: "2024" }
     ].forEach(opt => {
         const option = document.createElement("option");
         option.value = opt.value;
@@ -56,6 +60,7 @@ function setButtons()
     buttonHolder.appendChild(document.createElement("hr"));
 }
 
+
 function createButton(buttonHolder, text, onClickFunc)
 {
     let button = document.createElement("button");
@@ -63,6 +68,7 @@ function createButton(buttonHolder, text, onClickFunc)
     button.onclick = onClickFunc;
     buttonHolder.appendChild(button);
 }
+
 
 function sortGames(sortType)
 {
@@ -90,6 +96,7 @@ function sortGames(sortType)
     draw(sortType);
 }
 
+
 function filterGames(year)
 {
     debug ? console.log("Filtering by " + year) : null;
@@ -107,19 +114,35 @@ function filterGames(year)
     draw();
 }
 
+
 //Burrada hecha mientras no sé combinar los dos select
 function resetSortAndFilter(pos)
- {
-        const buttonHolder = document.getElementById("buttonHolder");
-    if (buttonHolder) {
-        const selects = buttonHolder.querySelectorAll("select");
-        if (selects.length > 1) {
-            // reset sort select to default
-            selects[pos].value = "";
-        }
-    }
- }
+{
+    const buttonHolder = document.getElementById("buttonHolder");
 
+    if (buttonHolder)
+    {
+        const selects = buttonHolder.querySelectorAll("select");
+
+        if (selects.length > 1)
+            selects[pos].value = "";
+    }
+
+    scrollToTop();
+}
+
+
+function scrollToTop()
+{
+    // scroll to top of the list or page when resetting controls
+    const container = document.getElementById("container");
+    if (container)
+        container.scrollTop = 0;
+
+    // fallback to window scroll (smooth)
+    if (typeof window !== "undefined" && window.scrollTo)
+        window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
+}
 
 
 function clearContainer(container)
@@ -223,17 +246,18 @@ function draw(sortType)
         title = document.createElement("div");
         title.className = "title";
 
-        if (debug && !sortType)
-        {
-            if (gameList[i].añoJugado != debugFlagYear)
-            {
-                debugFlagYear = gameList[i].añoJugado;
-                debugFlagId = gameList[i].id - 1;
-            }
-            title.textContent = (gameList[i].id-debugFlagId) + ". " + gameList[i].nombre;
-        }
-        else
+         if (debug && !sortType)
+         {
+             if (gameList[i].añoJugado != debugFlagYear)
+             {
+                 debugFlagYear = gameList[i].añoJugado;
+                 debugFlagId = gameList[i].id - 1;
+             }
+             title.textContent = (gameList[i].id-debugFlagId) + ". " + gameList[i].nombre;
+         }
+         else
             title.textContent = gameList[i].id + ". " + gameList[i].nombre;
+            // title.textContent = gameList[i].nombre;
 
         year = document.createElement("span");
         year.textContent = " (" + gameList[i].año + ")";
@@ -246,6 +270,7 @@ function draw(sortType)
         review = document.createElement("div");
         review.className = "review";
         review.textContent = gameList[i].review;
+        
 
         titleContainer.appendChild(title);
         titleContainer.appendChild(developer);
@@ -262,6 +287,7 @@ function draw(sortType)
         container.appendChild(card);
     }
 }
+
 
 function getVersion(rev)
 {
