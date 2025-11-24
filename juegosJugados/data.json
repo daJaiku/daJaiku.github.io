@@ -1971,5 +1971,205 @@
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2gyi.webp",
         "review": "Me parece un juego muy chulo, pero la gente lo sobrevalora MUCHO.\nLa mazmorra (si, solo una) es procedimental y casi innecesaria, y la historia no arranca casi hasta el tercer tercio del juego.\nEso si, el mensaje final es 👍🏻.",
         "añoJugado": 2024
+    },
+    {
+        "id": 198,
+        "nombre": "A Game About Digging A Hole",
+        "desarrollador": "DoubleBee",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95en.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar386m.webp",
+        "review": "Consiste en hacer un agujero. Es bastante auto explicativo.\nHaz un agujero.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 199,
+        "nombre": "Overboard!",
+        "desarrollador": "inkle",
+        "año": 2021,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7f6w.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar32rh.webp",
+        "review": "Has tirado a alguien por la borda y toca echarle la culpa a alguien para cobrar el seguro de vida. Buena suerte con ello. Ser capaz de organizarte las tareas y manipular a la gente es clave para tu éxito.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 200,
+        "nombre": "Wario Ware: Move It!",
+        "desarrollador": "Intelligent Systems",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6nwc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2ddp.webp",
+        "review": "Llevaba mucho tiempo queriendo probar algún juego de esta saga, y los microjuegos son muy divertidos pero... cansa rápido xd",
+        "añoJugado": 2025
+    },
+    {
+        "id": 201,
+        "nombre": "Scribblenauts Unlimited",
+        "desarrollador": "5th Cell",
+        "año": 2012,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co1my3.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1icn.webp",
+        "review": "Todo lo que escribas se hace realidad.\n¿Y me estás diciendo que tengo que ser bueno con la gente?\n*Saca un dinosaurio rosa alado deprimido con un lanzacohetes*.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 202,
+        "nombre": "Dave the Diver",
+        "desarrollador": "MINTROCKET",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaav7.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1o85.webp",
+        "review": "He de admitir que este juego no me hacía mucha ilusión por el tema de la gestión del restaurante, pero como al final solo es una pequeña parte y cuenta con una historia que marca el progreso del juego, pues se hizo más ameno.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 203,
+        "nombre": "Mario & Luigi: Conexión Fraternal",
+        "desarrollador": "Nintendo",
+        "año": 2024,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9a.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar30l8.webp",
+        "review": "Gran vuelta de la saga que no cumplió con las expectativas. La historia solo es una excusa para moverse y tiene cero sentido. Las animaciones de combate muy chulas, pero las batallas no son tan desafiantes.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 204,
+        "nombre": "Hi-Fi Rush",
+        "desarrollador": "Tango Gameworks",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6219.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar23bf.webp",
+        "review": "Un juego de combate rítmico con mucho carisma y personalidad, aunque he de decir que las peleas se me hicieron lo menos interesante por poder siempre abusar del mismo combo sin penalización.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 205,
+        "nombre": "Tunic",
+        "desarrollador": "TUNIC Team",
+        "año": 2022,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/td1t8kb33gyo8mvhl2pc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/arklp.webp",
+        "review": "Una experiencia desafiante muy disfrutable. Entras en un mundo sin saber absolutamente nada (ni siquiera los controles ni tu objetivo) y será tu trabajo explorar y descubrir todo lo necesario para pasarte este juego. Hay mucho metajuego y me encanta.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 206,
+        "nombre": "20 Small Mazes",
+        "desarrollador": "FLEB",
+        "año": 2024,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7s62.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar2kwq.webp",
+        "review": "Pues lo dice el nombre.\nEstá gratis así que nada de mirar si interesa o no y solo jugadlo. Es cuanto menos interesante.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 207,
+        "nombre": "Mario Kart World",
+        "desarrollador": "Nintendo",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9m78.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3o77.webp",
+        "review": "No sé cómo sentirme al respecto. Mecánicamente es increíble y la libertad que se tiene de maniobrar el vehículo es muy disfrutable. Todo lo demás son decisiones muy raras que han tomado que hace que el juego no brille todo lo que debería.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 208,
+        "nombre": "Deltarune: Capítulos 3 & 4",
+        "desarrollador": "Toby Fox",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9m71.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/scxbye.webp",
+        "review": "No hay review, esto es una orden para que vayáis a compraros el juego (os dejo que esperéis que salgan el resto de capítulos)",
+        "añoJugado": 2025
+    },
+    {
+        "id": 209,
+        "nombre": "Persona 5: The Phantom X",
+        "desarrollador": "Black Wing Game Studio",
+        "año": 2024,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9t5k.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3l6u.webp",
+        "review": "Había que probar el gacha del Persona 5... nada que ver. Al intentar traducir el juego a una versión free to play, se carga parte del núcleo que hacía Persona 5 ser Persona 5.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 210,
+        "nombre": "Until Then",
+        "desarrollador": "Polychroma Games",
+        "año": 2024,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co7r5n.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4eu1.webp",
+        "review": "Un juego narrativo muy bonito que trata de temáticas sensibles mientras suceden hechos paranormales. El final me perdió un poco pero porque mi cabeza no da para tanto.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 211,
+        "nombre": "Replicube",
+        "desarrollador": "Walaber",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9dwl.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3b2p.webp",
+        "review": "Es un juego de programar cubitos. Pues va a ser que no sé programar.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 212,
+        "nombre": "PEAK",
+        "desarrollador": "Aggro Crab Games",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coat49.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3slc.webp",
+        "review": "PEAK es peak! jaja funny. Pero nunca dejes atrás a nadie si no quieres p̴̲͌ḁ̶̊g̵̲̋ȃ̴̞ȓ̶̼ ̴͎̿l̶̘͝á̷͖s̵̍͜ ̴̘̂c̴̨͒o̷̝̍n̶̤͝s̵̥͌ẹ̵̅c̴͓̾u̸͉̽e̴̮͘n̸͇͛c̸̰̒ì̷̱å̶͍ṡ̵̪ .",
+        "añoJugado": 2025
+    },
+    {
+        "id": 213,
+        "nombre": "Hollow Knight: Silksong",
+        "desarrollador": "Team Cherry",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaend.webp",
+        "imagenFondo": "https://hollowknightsilksong.wiki.fextralife.com/file/Hollow-Knight-Silksong/nintendo_direct_silksong_gif_wiki_guide-1.gif",
+        "review": "",
+        "añoJugado": 2025
+    },
+    {
+        "id": 214,
+        "nombre": "Leyendas Pokémon: Z-A",
+        "desarrollador": "Game Freak",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9wzc.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3m7o.webp",
+        "review": "Ignorando muy fuerte los edificios planos, hay que admitir que hubo una fuerte mejora desde el último juego y que la nueva mecánica de combate, a pesar de tener fallitos, se hace entretenida y disfrutable.\nBien optimizado, Game Freak.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 215,
+        "nombre": "Strange Jigsaws",
+        "desarrollador": "FLEB",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9lgg.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3ftd.webp",
+        "review": "'Tá claro, no? Po' enga, haz puzles raros.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 216,
+        "nombre": "Dispatch",
+        "desarrollador": "AdHoc Studio",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co95gb.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar387a.webp",
+        "review": "Una pelijuego pero en lugar de caminar de punto A a punto B te toca hacer minijuego de gestión y eso está bien. Me desactivé los quick time events porque me apetecía más ver una peli a estar tenso para pulsar un botón en un momento random.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 217,
+        "nombre": "Leaf it Alone",
+        "desarrollador": "Eternity",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coatpx.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4n2c.webp",
+        "review": "Otro juego para la lista de ''voy a realizar una tarea repetitiva que en la vida real sería aburrida o no me apetece hacerla''.",
+        "añoJugado": 2025
     }
 ]

@@ -1,6 +1,8 @@
 import data from "./data.json" with { type: "json" };
 
 let gameList = data;
+let globalFilter = null;
+let globalSort = null;
 
 //configuración
 let debug = false;
@@ -24,6 +26,7 @@ function setButtons()
 
     buttonHolder.textContent = "Ordenar:";
 
+    //Select para ordenar
     selectSort = document.createElement("select");
     [
         { text: "por defecto", value: "" },
@@ -40,15 +43,17 @@ function setButtons()
 
     buttonHolder.appendChild(document.createTextNode("Filtrar:"));
 
+    //Select para filtrar
     selectFilter = document.createElement("select");
-    [
-        { text: "por defecto", value: "" },
-        { text: "2020", value: "2020" },
-        { text: "2021", value: "2021" },
-        { text: "2022", value: "2022" },
-        { text: "2023", value: "2023" }
-        , { text: "2024", value: "2024" }
-    ].forEach(opt => {
+
+    const uniqueYears = Array.from(new Set(data.map(item => item.añoJugado).filter(y => y !== undefined)));
+    uniqueYears.sort((a, b) => a - b);
+
+    const filterOptions = [{ text: "por defecto", value: "" }].concat(
+        uniqueYears.map(y => ({ text: String(y), value: String(y) }))
+    );
+
+    filterOptions.forEach(opt => {
         const option = document.createElement("option");
         option.value = opt.value;
         option.textContent = opt.text;
@@ -57,29 +62,21 @@ function setButtons()
     selectFilter.onchange = () => filterGames(selectFilter.value === "" ? null : parseInt(selectFilter.value));
     buttonHolder.appendChild(selectFilter);
 
+    //Separador
     buttonHolder.appendChild(document.createElement("hr"));
-}
-
-
-function createButton(buttonHolder, text, onClickFunc)
-{
-    let button = document.createElement("button");
-    button.textContent = text;
-    button.onclick = onClickFunc;
-    buttonHolder.appendChild(button);
 }
 
 
 function sortGames(sortType)
 {
-    debug ? console.log("Sorting by " + sortType) : null;
+    globalSort = sortType;
 
-    resetSortAndFilter(1);
+    debug ? console.log("Sorting by " + globalSort) : null;
 
     gameList = data;
     gameList.sort((a, b) => a.id - b.id);
 
-    switch (sortType)
+    switch (globalSort)
     {        
         case "year":
         {
@@ -93,42 +90,17 @@ function sortGames(sortType)
         break;
     }
 
-    draw(sortType);
+    draw();
 }
 
 
 function filterGames(year)
 {
-    debug ? console.log("Filtering by " + year) : null;
-
-    resetSortAndFilter(0);
-
-    gameList = data;
-    gameList.sort((a, b) => a.id - b.id);
-
-    if (year != null)
-    {
-        gameList = gameList.filter(item => item.añoJugado === year);
-    }
+    globalFilter = year;
+    
+    debug ? console.log("Filtering by " + globalFilter) : null;
 
     draw();
-}
-
-
-//Burrada hecha mientras no sé combinar los dos select
-function resetSortAndFilter(pos)
-{
-    const buttonHolder = document.getElementById("buttonHolder");
-
-    if (buttonHolder)
-    {
-        const selects = buttonHolder.querySelectorAll("select");
-
-        if (selects.length > 1)
-            selects[pos].value = "";
-    }
-
-    scrollToTop();
 }
 
 
@@ -152,7 +124,7 @@ function clearContainer(container)
 }
 
 
-function draw(sortType)
+function draw()
 {
     const container = document.getElementById("container");
     let card;
@@ -173,15 +145,17 @@ function draw(sortType)
     let separator;
 
     let lastData = null;
-    let isDataUpdated = false;
 
     for (let i=0; i < gameList.length; i++)
     {
         separator = document.createElement("div");
-        
-        isDataUpdated = false;
 
-        switch (sortType)
+        //Aplicar filtro
+        if (globalFilter != null && gameList[i].añoJugado != globalFilter)
+                continue;
+
+        //Crear separador según ordenado
+        switch (globalSort)
         {
             default:
             {
@@ -189,7 +163,9 @@ function draw(sortType)
                 {
                     lastData = gameList[i].añoJugado;
                     separator.textContent = "Jugado en " + lastData;
-                    isDataUpdated = true;
+
+                    separator.className = "separator";
+                    container.appendChild(separator);
                 }
             }
             break;
@@ -199,7 +175,9 @@ function draw(sortType)
                 {
                     lastData = gameList[i].año;
                     separator.textContent = lastData;
-                    isDataUpdated = true;
+
+                    separator.className = "separator";
+                    container.appendChild(separator);
                 }
             }
             break;
@@ -209,18 +187,13 @@ function draw(sortType)
                 {                    
                     lastData = gameList[i].nombre.charAt(0).toUpperCase();
                     separator.textContent = lastData;
-                    isDataUpdated = true;
+
+                    separator.className = "separator";
+                    container.appendChild(separator);
                 }
             }
             break;
         }
-
-        if (isDataUpdated)
-        {
-            separator.className = "separator";
-            container.appendChild(separator);
-        }
-
 
         card = document.createElement("div");
         card.className = "card";
@@ -231,6 +204,9 @@ function draw(sortType)
             bgImage = document.createElement("div");
             bgImage.className = "backgroundImage";
             bgImage.style.backgroundImage = `url("${gameList[i].imagenFondo}")`;
+
+            if (gameList[i].id == 213)
+                bgImage.id = "silksong";
         }
 
         coverImage = document.createElement("img");
@@ -245,19 +221,7 @@ function draw(sortType)
 
         title = document.createElement("div");
         title.className = "title";
-
-         if (debug && !sortType)
-         {
-             if (gameList[i].añoJugado != debugFlagYear)
-             {
-                 debugFlagYear = gameList[i].añoJugado;
-                 debugFlagId = gameList[i].id - 1;
-             }
-             title.textContent = (gameList[i].id-debugFlagId) + ". " + gameList[i].nombre;
-         }
-         else
-            title.textContent = gameList[i].id + ". " + gameList[i].nombre;
-            // title.textContent = gameList[i].nombre;
+        title.textContent = gameList[i].id + ". " + gameList[i].nombre;
 
         year = document.createElement("span");
         year.textContent = " (" + gameList[i].año + ")";

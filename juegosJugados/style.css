@@ -61,6 +61,10 @@ button:hover, select:hover
     overflow-x: hidden;
 }
 
+.twitter-tweet
+{
+    margin: 25px auto !important;
+}
 
 .separator
 {
@@ -105,6 +109,12 @@ button:hover, select:hover
     opacity: 0.2;
 
     user-select: none;
+}
+
+#silksong
+{
+    background-position: center;
+    opacity: 1.0;
 }
 
 .image
@@ -207,5 +217,11 @@ span
     {
         text-align: center;
         align-items: center;
+    }
+
+    #silksong
+    {
+        background-position: top;
+        background-size: 250%;
     }
 }
