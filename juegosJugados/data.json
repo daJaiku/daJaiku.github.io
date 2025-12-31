@@ -1944,7 +1944,7 @@
     },
     {
         "id": 195,
-        "nombre": "Metaphot: ReFantazio",
+        "nombre": "Metaphor: ReFantazio",
         "desarrollador": "Studio Zero",
         "año": 2024,
         "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8d9t.webp",
@@ -2171,5 +2171,56 @@
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4n2c.webp",
         "review": "Otro juego para la lista de ''voy a realizar una tarea repetitiva que en la vida real sería aburrida o no me apetece hacerla''.",
         "añoJugado": 2025
+    },
+    {
+        "id": 218,
+        "nombre": "Is ths seat taken?",
+        "desarrollador": "Poti Poti Studio",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaapt.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3onv.webp",
+        "review": "Un juego de puzles chikito en el cual es válido admitir con orgullo que no te duchas... Menos mal que yo me voy a sentar lejos de esas criaturas del averno.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 219,
+        "nombre": "Inazuma Eleven: Heroes' Victory Road",
+        "desarrollador": "Level-5",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9nsw.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar4lpk.webp",
+        "review": "Mira que odio el fútbol con toda mi alma, pero por algún motivo esta saga me gusta mucho. No requiere tanta estrategia como con los anteriores juegos, pero a cambio es muy frenético y divertido.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 220,
+        "nombre": "Bits & Bops",
+        "desarrollador": "Tempo Lab Games",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coav6f.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar24ks.webp",
+        "review": "Hay muchos juegos que intentar ser como la saga de Rhythm Paradise, sin embargo aunque la implementación sea buena, siempre les falta algo.\nEse algo es ''ser un poco tonto''. Y sorprendentemente este juego ha captado muy bien esa esencia.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 221,
+        "nombre": "Hades II",
+        "desarrollador": "Supergiant Games",
+        "año": 2025,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/coaknx.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar44rv.webp",
+        "review": "BISEXUALS HAD THEIR FUN ALREADY.\n\nNOW ITS BISEXUALS' TURN.",
+        "añoJugado": 2025
+    },
+    {
+        "id": 222,
+        "nombre": "A Little to the Left: Cupboards & Drawers / Seeing Stars",
+        "desarrollador": "Max Inferno",
+        "año": 2024,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9tzr.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3313.webp",
+        "review": "El primer DLC me ha gustado mucho y el segundo no tanto.\nLa principal diferencia es que el primero tienen pocas soluciones pero son puzles elaborados, mientras que el segundo tiene demasiadas y son confusos.",
+        "añoJugado": 2025
     }
+    
 ]
