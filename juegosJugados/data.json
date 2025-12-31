@@ -2221,6 +2221,16 @@
         "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar3313.webp",
         "review": "El primer DLC me ha gustado mucho y el segundo no tanto.\nLa principal diferencia es que el primero tienen pocas soluciones pero son puzles elaborados, mientras que el segundo tiene demasiadas y son confusos.",
         "añoJugado": 2025
+    },
+    {
+        "id": 223,
+        "nombre": "Chants of Sennaar",
+        "desarrollador": "Rundisc",
+        "año": 2023,
+        "imagen": "https://images.igdb.com/igdb/image/upload/t_cover_big/co9mjo.webp",
+        "imagenFondo": "https://images.igdb.com/igdb/image/upload/t_1080p/ar1ltv.webp",
+        "review": "Sabiendo que es un juego donde toca interpretar múltiples lenguajes abstractos, no llega a hacerse ni muy trivial ni muy frustrante, alcanzando el equilibrio perfecto para ofrecerte un reto justo.",
+        "añoJugado": 2025
     }
     
 ]
